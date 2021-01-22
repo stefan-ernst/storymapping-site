@@ -90,7 +90,7 @@ module.exports = {
             ],
             logo: {
                 alt: 'Realigned Logo',
-                src: '/static/img/realigned.svg',
+                src: '/img/realigned.svg',
             },
             copyright: `Copyright © ${new Date().getFullYear()} Realigned Technologies Ltd. `,
         },
