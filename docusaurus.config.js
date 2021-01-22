@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Story Mapping for Jira',
   tagline: 'Focus on user value & prioritize the right work',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://storymapping.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
