@@ -123,5 +123,6 @@ module.exports = {
             async: true,
             defer: true
         }
-    ]
+    ],
+    plugins: ['@docusaurus/plugin-ideal-image'],
 };

@@ -63,11 +63,11 @@ function Home() {
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
-            <img src="/img/SME1.webp" style={{width:'40rem'}}/>
+            <img src="/img/SME1.webp" style={{width:'40rem'}} alt="Story Mapping Hero Image"/>
 
             <br />
             <div style={{margin:5}}>Available on the</div>
-            <img src="/img/white-marketplace.svg" style={{width:'20rem'}}/>
+            <img src="/img/white-marketplace.svg" style={{width:'20rem'}} alt="Atlassian Marketplace Logo"/>
             <br /><br />
 
             <div className={styles.buttons}>
