@@ -3,7 +3,7 @@ module.exports = {
     'intro',
     /*'freevspaid',*/
     'storyvsjourneymap',
-    {"Story Mapping Free": ['doc1', 'doc2', 'doc3']},
+    {"Story Mapping Free": ['setup', 'usage', 'doc3']},
    /* {"Story Mapping Pro": ['doc1', 'doc2', 'doc3']},*/
     {Troubleshooting: ['troubleshooting']},
   ],
