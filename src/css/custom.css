@@ -1,0 +1,103 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #778a9f;
+  --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-code-font-size: 95%;
+  --ifm-navbar-height: 70px;
+  --ifm-font-color-base-inverse: #ffffff;
+  --ifm-font-family-base: -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont;
+  --ifm-background-color: #f5f5f5;
+  --ifm-color-content: #2D3747;
+  --collapse-button-bg-color-dark: #fff;
+  --realigned-blue: #1774C8;
+  --realigned-bright-blue: #3699F2;
+  --realigned-sky-blue: #1FB6FF;
+  --ifm-h1-font-size: 2rem;
+
+}
+
+.navbar__logo {
+  width: 40px;
+  height: 40px;
+}
+
+.hero__title {
+  font-size: 2.5rem;
+}
+
+.hero__subtitle {
+  font-size: 1.25rem;
+}
+
+h1 {
+  font-size: 1.75rem !important;
+}
+
+h2 {
+  font-size: 1.5rem !important;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+.navbar__toggle {
+  color: white;
+}
+
+.navbar__brand:hover {
+  color: var(--realigned-sky-blue);
+}
+
+element {
+
+}
+.navbar__link:hover, .navbar__link--active {
+  color: var(--realigned-sky-blue);
+}
+
+.hero--primary {
+  background: linear-gradient( 154deg, rgb(1, 51, 115) 0%, rgb(20, 132, 188) 100%);
+}
+
+.footer__link-item:hover {
+  color: var(--realigned-sky-blue);
+  text-decoration: none;
+}
+
+.button.button--secondary {
+  background-color: var(--realigned-blue);
+  border-width: 0;
+}
+
+.footer__logo {
+  max-width: 200px;
+}
+
+.button.button--secondary.button--outline:not(.button--active):not(:hover) {
+  color: white;
+}
+
+.button--outline:hover, .button--outline:active, .button--outline.button--active {
+  background-color: var(--realigned-bright-blue);
+  color: white;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
