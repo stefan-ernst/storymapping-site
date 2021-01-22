@@ -124,5 +124,4 @@ module.exports = {
             defer: true
         }
     ],
-    plugins: ['@docusaurus/plugin-ideal-image'],
 };
