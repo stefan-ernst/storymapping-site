@@ -8,32 +8,30 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Manage & Prioritize',
+    imageUrl: 'img/SME2.webp',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Story Mapping for Jira was designed from the ground up to be easily installed and
+        used to get your team up and running quickly
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'Focus on what Matters',
+    imageUrl: 'img/SME1.webp',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Easily manage and plan your next sprint right from the story map.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'Fully integrated',
+    imageUrl: 'img/SME4.webp',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Create releases and sprints without leaving the app
       </>
     ),
   },
@@ -42,14 +40,14 @@ const features = [
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <div className={clsx('col col--4 text--center', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <h3>{title}</h3>
-      <p>{description}</p>
+      <h3 style={{fontWeight:400}}>{title}</h3>
+      <p className="text--left">{description}</p>
     </div>
   );
 }
@@ -65,15 +63,30 @@ function Home() {
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
+            <img src="/img/SME1.webp" style={{width:'40rem'}}/>
+
+            <br />
+            <div style={{margin:5}}>Available on the</div>
+            <img src="/img/white-marketplace.svg" style={{width:'20rem'}}/>
+            <br /><br />
+
+            <div className={styles.buttons}>
             <Link
               className={clsx(
-                'button button--outline button--secondary button--lg',
+                'button button--outline button--primary button--lg',
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
               Get Started
-            </Link>
+            </Link> &nbsp;
+                <Link
+                    className={clsx(
+                        'button button--outline button--secondary button--lg',
+                        styles.getStarted,
+                    )}
+                    to={useBaseUrl('docs/')}>
+                    Try free
+                </Link>
           </div>
         </div>
       </header>

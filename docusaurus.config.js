@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Story Mapping for Jira',
-  tagline: 'The most powerful Story Mapping app on the Atlassian Marketplace',
+  tagline: 'Focus on user value & prioritize the right work',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -27,7 +27,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        /*{to: 'blog', label: 'Blog', position: 'left'},*/
       ],
     },
     footer: {
@@ -38,19 +38,19 @@ module.exports = {
           items: [
             {
               label: 'Journey Mapping for Jira',
-              to: 'https://google.ch',
+              to: 'https://realigned.io/journeymapping',
             },
             {
               label: 'Read Confirmations for Confluence',
-              to: 'docs/doc2/',
+              to: 'https://realigned.io/readconfirmations',
             },
             {
               label: 'Personal Dashboards for Confluence',
-              to: 'docs/doc2/',
+              to: 'https://realigned.io/personaldashboards',
             },
             {
               label: 'Enhanced Sharing for Confluence',
-              to: 'docs/doc2/',
+              to: 'https://realigned.io/enhancedsharing',
             },
           ],
         },
@@ -59,15 +59,16 @@ module.exports = {
           items: [
             {
               label: 'Support',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://realignedtechnologies.atlassian.net/servicedesk/customer/portals',
+              target: '_blank'
             },
             {
               label: 'EULA',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://docz.realignedtechnologies.com/eula',
             },
             {
               label: 'Privacy',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://docz.realignedtechnologies.com/privacypolicy',
             },
           ],
         },
@@ -77,19 +78,21 @@ module.exports = {
             {
               label: "Realigned Services",
               to: 'https://realigned.ch',
+              target: '_blank'
             },
             {
               label: 'Realigned Learning',
               href: 'https://realigned.work',
+              target: '_blank'
             },
           ],
         },
       ],
       logo: {
-        alt: 'Facebook Open Source Logo',
+        alt: 'Realigned Logo',
         src: '/static/img/realigned.svg',
       },
-      copyright: `Copyright © ${new Date().getFullYear()} Realigned Technologies Ltd. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Realigned Technologies Ltd. `,
     },
   },
   presets: [
@@ -99,14 +102,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

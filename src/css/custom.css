@@ -24,8 +24,14 @@
   --realigned-blue: #1774C8;
   --realigned-bright-blue: #3699F2;
   --realigned-sky-blue: #1FB6FF;
+  --realigned-dark-blue: #013373;
+  --realigned-royal-blue: #004c8a;
   --ifm-h1-font-size: 2rem;
+  --ifm-container-width: 1280px;
+}
 
+main {
+  padding: 2rem 0 2rem 0;
 }
 
 .navbar__logo {
@@ -34,7 +40,7 @@
 }
 
 .hero__title {
-  font-size: 2.5rem;
+  font-size: 2rem !important;
 }
 
 .hero__subtitle {
@@ -61,12 +67,16 @@ h3 {
   color: var(--realigned-sky-blue);
 }
 
-element {
-
+.navbar--dark {
+  background-color: var(--realigned-royal-blue);
+}
+.footer--dark {
+  background-color: var(--realigned-dark-blue);
 }
 .navbar__link:hover, .navbar__link--active {
   color: var(--realigned-sky-blue);
 }
+
 
 .hero--primary {
   background: linear-gradient( 154deg, rgb(1, 51, 115) 0%, rgb(20, 132, 188) 100%);
@@ -77,8 +87,14 @@ element {
   text-decoration: none;
 }
 
-.button.button--secondary {
+.button.button--primary {
   background-color: var(--realigned-blue);
+  border-width: 0;
+}
+
+.button.button--secondary {
+  background-color: inherit;
+  color: white !important;
   border-width: 0;
 }
 
@@ -86,14 +102,15 @@ element {
   max-width: 200px;
 }
 
-.button.button--secondary.button--outline:not(.button--active):not(:hover) {
+.button.button--primary.button--outline:not(.button--active):not(:hover) {
   color: white;
 }
 
-.button--outline:hover, .button--outline:active, .button--outline.button--active {
+.button.button--primary:hover, .button.button--primary:active, .button--outline.button--active {
   background-color: var(--realigned-bright-blue);
   color: white;
 }
+
 
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
