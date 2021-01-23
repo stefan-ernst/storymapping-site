@@ -23,7 +23,7 @@ const features = [
         imageUrl: 'img/SME1.webp',
         description: (
             <>
-                Easily manage and plan your next sprint right from the story map.
+                Easily manage and plan your next sprint or release right from the story map.
             </>
         ),
     },
@@ -32,7 +32,7 @@ const features = [
         imageUrl: 'img/SME4.webp',
         description: (
             <>
-                Create releases and sprints without leaving the app
+                Create releases, sprints, add and edit issues - all without leaving the app
             </>
         ),
     },
