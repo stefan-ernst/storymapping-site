@@ -37,6 +37,10 @@ main {
   padding: 2rem 0 2rem 0;
 }
 
+.button {
+  font-size: 1rem;
+}
+
 .navbar__logo {
   width: 40px;
   height: 40px;
