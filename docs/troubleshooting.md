@@ -15,6 +15,11 @@ with the Release feature.
 If you are using a Classic Project (or using Server or Data Center), the selected board might not support
 Sprints or you do not have Manage Sprints permission.
 
+### Sprint creation fails even though I have Manage Sprints permission
+
+The selected board contains more than one project. You need to have Manage Sprints permission
+in all included projects.
+
 ### I can't find Story Mapping App in the project sidebar
 
 Currently only Software Projects are supported. You won't find the Sidebar item in Business or Jira Service Management projects.
