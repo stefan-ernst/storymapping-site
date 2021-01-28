@@ -20,6 +20,12 @@ Sprints or you do not have Manage Sprints permission.
 The selected board contains more than one project. You need to have Manage Sprints permission
 in all included projects.
 
+### Can not add issue to sprint, customfield_xxxxx can not be set
+
+Make sure the sprint field is visible on the edit issue screen.
+If you created your project from a template that is not the scrum template, you need
+to add this field manually.
+
 ### I can't find Story Mapping App in the project sidebar
 
 Currently only Software Projects are supported. You won't find the Sidebar item in Business or Jira Service Management projects.
