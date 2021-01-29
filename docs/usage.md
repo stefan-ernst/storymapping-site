@@ -3,4 +3,45 @@ id: usage
 title: Using Story Mapping app
 ---
 
-This is a link to [another document.](doc3.md) This is a link to an [external page.](http://www.example.com/)
+### Basics
+
+After adding the story map, you can add an existing epic via search function 
+or create a new epic.
+
+![First Epic](/img/smfree/smetutorial1.png)
+
+The search is limited to epics from the current project. 
+
+To the epic you can add issues the same way, either search for them or create new ones.
+
+#### Creating a ticket
+
+![Creating a task](/img/smfree/smetutorial2.png)
+
+#### Result
+
+![The newly created task](/img/smfree/smetutorial3.png)
+
+:::info
+You can not assign epics to epics, this is not allowed by Jira
+:::
+
+### Working with multiple epics
+
+You can add additional epics to the story map at any point. The epics can be marked
+with custom colors. These colors do not correspond to the epic colors of Jira (the selection
+ is too limited), so you can select any color you want here.
+
+![Picking an epic color](/img/smfree/smetutorial4.png)
+
+Once you have the second column set up, you can start moving issues between epics. Simply drag
+and drop them onto the second column.
+
+![Issue moved between epics](/img/smfree/smetutorial5.png)
+
+### Inline Editing
+
+You can adjust the issue summary or the epic title at any time by clicking the edit icon
+or by double clicking on the card.
+
+![Editing the summary](/img/smfree/smetutorial6.png)

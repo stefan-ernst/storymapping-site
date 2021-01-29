@@ -11,16 +11,16 @@ in order to support the different needs of each practice.
 Although a journey map and user story map may contain
 some of the same pieces, they are used at different points of the process.
 
-A story map is for planning and implementation while a journey map let's you validate
+A story map is for planning and implementation while a journey map lets you validate
 features from a user's perspective and also aims at discovery and understanding of user's requirements.
 
-Therefore, our apps do two very different things. In practical terms:
+Therefore, our apps do very different things. In practical terms:
 
 | Feature        |      Story Mapping for Jira - Free      |   Journey Mapping for Jira |
 | ------------- | :-----------: | :-----------: |
 | One map for each use case<br /> or scenario     | <CheckItem isX /> |  <CheckItem /> |
-| Overview of all issues in the project     | <CheckItem /> |  <CheckItem isX /> |
-| Uses standard issue types <br />like Epic, Story, etc.    |    <CheckItem />    |   Custom |
+| Planning sprints and releases     | <CheckItem /> |  <CheckItem isX /> |
+| Use standard issue types <br />like Epic, Story, etc.    |    <CheckItem />    |   Custom |
 | Analyse personas and<br /> their behaviour |   <CheckItem isX />     |    <CheckItem />  |
 | Assign Personas to <br /> individual issues |    <CheckItem />     |    <CheckItem isX />  |
 
