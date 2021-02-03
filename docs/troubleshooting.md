@@ -26,6 +26,16 @@ Make sure the sprint field is visible on the edit issue screen.
 If you created your project from a template that is not the scrum template, you need
 to add this field manually.
 
+### Can not add issue to release
+
+If you have more than 1 project in your story map, you will see
+the release versions of all projects. But you can only assign the
+issues from one project to fixVersions of the same project. There is
+unfortunately nothing we can do about this.
+
+If you want to plan cross-project releases, we recommend you use
+the custom timeframe feature, available in the pro version.
+
 ### I can't find Story Mapping App in the project sidebar
 
 Currently only Software Projects are supported. You won't find the Sidebar item in Business or Jira Service Management projects.
