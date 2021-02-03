@@ -36,6 +36,18 @@ unfortunately nothing we can do about this.
 If you want to plan cross-project releases, we recommend you use
 the custom timeframe feature, available in the pro version.
 
+### Could not update estimate 
+
+There are unfortunately several reasons for this:
+
+1. The configured board is a scrum board but the context for the story points field does not include the current issue type.
+   See this [community thread](https://community.atlassian.com/t5/Jira-questions/Story-points-not-visible-for-Issues/qaq-p/1315572) for further info.
+2. The configured board is a Kanban board or no board is configured and you have enable
+the estimation feature via Story Mapping app - you need to make sure the story point field is
+   available on the edit screen of the issue type.
+3. You entered an invalid value for the field. Story Mapping app will try to cast any value
+to a number but this can fail.
+
 ### I can't find Story Mapping App in the project sidebar
 
 Currently only Software Projects are supported. You won't find the Sidebar item in Business or Jira Service Management projects.
