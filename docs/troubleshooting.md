@@ -26,6 +26,13 @@ Make sure the sprint field is visible on the edit issue screen.
 If you created your project from a template that is not the scrum template, you need
 to add this field manually.
 
+### Issue appears in the story map but not in any Sprint swimlane in Sprint view
+
+You might have had this issue in a previous sprint and that sprint was completed.
+Unfortunately, Jira does not clear the sprint field even when the issue is moved back to the backlog
+and / or is still in an open or in progress state.
+You need to manually reopen the old sprint and clear the field. [See here for more info](https://support.atlassian.com/jira-software-cloud/docs/reopen-a-sprint/?_ga=2.89584147.901247001.1583153067-2088401750.1574865265).
+
 ### I can't find Story Mapping App in the project sidebar
 
 Currently only Software Projects are supported. You won't find the Sidebar item in Business or Jira Service Management projects.

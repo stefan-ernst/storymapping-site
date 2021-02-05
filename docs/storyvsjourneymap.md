@@ -22,7 +22,6 @@ Therefore, our apps do very different things. In practical terms:
 | Planning sprints and releases     | <CheckItem /> |  <CheckItem isX /> |
 | Use standard issue types <br />like Epic, Story, etc.    |    <CheckItem />    |   Custom |
 | Analyse personas and<br /> their behaviour |   <CheckItem isX />     |    <CheckItem />  |
-| Assign Personas to <br /> individual issues |    <CheckItem />     |    <CheckItem isX />  |
 
 ## Let's have a look at a simple example
 
