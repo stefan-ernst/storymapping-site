@@ -26,7 +26,7 @@ Make sure the sprint field is visible on the edit issue screen.
 If you created your project from a template that is not the scrum template, you need
 to add this field manually.
 
-### Issue appears in the story map but not in any Sprint swimlane in Sprint view
+### Issue appears in the story map but not in any Sprint swim lane in Sprint view
 
 You might have had this issue in a previous sprint and that sprint was completed.
 Unfortunately, Jira does not clear the sprint field even when the issue is moved back to the backlog
@@ -43,7 +43,7 @@ unfortunately nothing we can do about this.
 If you want to plan cross-project releases, we recommend you use
 the custom timeframe feature, available in the pro version.
 
-### Could not update estimate 
+### Could not update estimate (Pro Version)
 
 There are unfortunately several reasons for this:
 
@@ -61,9 +61,7 @@ Currently only Software Projects are supported. You won't find the Sidebar item 
 
 Additionally, you need "Edit Issues" permission in the project in order to use the story mapping features.
 
-### How do I change the epic issue type
-
-(This only applies to the free version)
+### How do I change the epic issue type (Free version)
 
 You can rename the epic issue type in Jira.
 
