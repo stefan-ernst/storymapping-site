@@ -68,4 +68,4 @@ The process of journey mapping forces you to look at the overarching behaviours 
 You can easily build a shared understanding of their personas and requirements.
 
 Story mapping on the other hand will help you implement the user journeys into your software and prioritise
-which features come first, by giving developers and product managers and easier overview of actionable items.
+which features come first, by giving developers and product managers an easier overview of actionable items.
