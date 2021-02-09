@@ -38,6 +38,36 @@ const features = [
     },
 ];
 
+const proFeatures = [
+    {
+        title: 'Define custom goals',
+        imageUrl: 'img/SME5.webp',
+        description: (
+            <>
+                Custom goals allow you to structure your epics with overarching themes
+            </>
+        ),
+    },
+    {
+        title: 'Use timeframes instead of sprints',
+        imageUrl: 'img/SME6.webp',
+        description: (
+            <>
+                Using sprints for story mapping can be very limiting. Plan long term with custom timeframes.
+            </>
+        ),
+    },
+    {
+        title: 'Estimate tickets from the story map',
+        imageUrl: 'img/SME7.webp',
+        description: (
+            <>
+                Plan your next iteration & easily add story points estimates to issues
+            </>
+        ),
+    },
+];
+
 function Feature({imageUrl, title, description}) {
     const imgUrl = useBaseUrl(imageUrl);
     const [showImage, setShowImage] = useState();
@@ -51,7 +81,7 @@ function Feature({imageUrl, title, description}) {
                     </div>
                 )}
                 <h3 style={{fontWeight: 400}}>{title}</h3>
-                <p className="text--left">{description}</p>
+                <p className="text--center">{description}</p>
             </div>
         </>
     );
@@ -96,6 +126,8 @@ function Home() {
                 </div>
             </header>
             <main>
+                <div style={{margin:'auto',maxWidth:300,textAlign:'center'}}><h2>Free Features</h2></div>
+
                 {features && features.length > 0 && (
                     <section className={styles.features}>
                         <div className="container">
@@ -107,6 +139,24 @@ function Home() {
                         </div>
                     </section>
                 )}
+
+                <div style={{  backgroundColor: '#fff', padding: "2rem 0 2rem 0"}}>
+                    <div style={{margin:'auto',maxWidth:300,textAlign:'center'}}><h2>Get even more with Pro!</h2></div>
+
+                    {proFeatures && proFeatures.length > 0 && (
+                        <section className={styles.features}>
+                            <div className="container">
+                                <div className="row">
+                                    {proFeatures.map((props, idx) => (
+                                        <Feature key={idx} {...props} />
+                                    ))}
+                                </div>
+                            </div>
+                        </section>
+                    )}
+
+                </div>
+
             </main>
         </Layout>
     );

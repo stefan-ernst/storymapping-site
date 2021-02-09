@@ -32,6 +32,12 @@ module.exports = {
                     label: 'Download free',
                     position: 'left',
                     target: '_blank'
+                },
+                {
+                    to: 'https://marketplace.atlassian.com/1224417',
+                    label: 'Try Pro!',
+                    position: 'left',
+                    target: '_blank'
                 }
                 /*{to: 'blog', label: 'Blog', position: 'left'},*/
             ],
@@ -44,7 +50,7 @@ module.exports = {
                     items: [
                         {
                             label: 'Journey Mapping for Jira',
-                            to: 'https://realigned.io/journeymapping',
+                            to: 'https://journeymapping.app',
                         },
                         {
                             label: 'Read Confirmations for Confluence',
