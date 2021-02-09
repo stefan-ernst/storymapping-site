@@ -89,7 +89,7 @@ function Home() {
                                 'button button--outline button--secondary button--lg',
                                 styles.getStarted,
                             )}
-                            to={useBaseUrl('docs/')}>
+                            to={"https://marketplace.atlassian.com/1224357"}>
                             Try free
                         </Link>
                     </div>
