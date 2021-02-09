@@ -5,7 +5,7 @@ title: User Story vs Journey Map
 
 import CheckItem from './components/CheckItem';
 
-We have developed Journey Mapping for Jira alongside Story Mapping for Jira
+We have developed [Journey Mapping for Jira](https://journeymapping.app) alongside Story Mapping for Jira
 in order to support the different needs of each practice.
 
 Although a journey map and user story map may contain
