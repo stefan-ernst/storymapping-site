@@ -141,7 +141,7 @@ function Home() {
                 )}
 
                 <div style={{  backgroundColor: '#fff', padding: "2rem 0 2rem 0"}}>
-                    <div style={{margin:'auto',maxWidth:300,textAlign:'center'}}><h2>Get even more with Pro!</h2></div>
+                    <div style={{margin:'auto',maxWidth:300,textAlign:'center'}}><h2>Get even more with Pro</h2></div>
 
                     {proFeatures && proFeatures.length > 0 && (
                         <section className={styles.features}>
