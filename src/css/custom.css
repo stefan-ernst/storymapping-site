@@ -77,6 +77,10 @@ h3 {
 .navbar--dark {
   background-color: var(--realigned-royal-blue);
 }
+
+.footer {
+  padding-top:8rem;
+}
 .footer--dark {
   background-color: var(--realigned-dark-blue);
 }

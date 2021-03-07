@@ -68,16 +68,14 @@ const proFeatures = [
     },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({imageUrl, title, description, setShowImage}) {
     const imgUrl = useBaseUrl(imageUrl);
-    const [showImage, setShowImage] = useState();
     return (
         <>
-            {showImage && <ModalImage onClose={() => setShowImage(false)} src={imageUrl} title={title} />}
             <div className={clsx('col col--4 text--center', styles.feature)}>
                 {imgUrl && (
                     <div className="text--center" style={{cursor:'pointer'}}>
-                        <img onClick={() => setShowImage(true)} className={styles.featureImage} src={imgUrl} alt={title}/>
+                        <img onClick={() => setShowImage(imgUrl)} className={styles.featureImage} src={imgUrl} alt={title}/>
                     </div>
                 )}
                 <h3 style={{fontWeight: 400}}>{title}</h3>
@@ -90,12 +88,14 @@ function Feature({imageUrl, title, description}) {
 function Home() {
     const context = useDocusaurusContext();
     const {siteConfig = {}} = context;
+    const [showImage, setShowImage] = useState();
+
     return (
         <Layout
             title={`${siteConfig.title}`}
             description="Description will go into a meta tag in <head />">
-            <header className={clsx('hero hero--primary', styles.heroBanner)}>
-                <div className="container">
+            <header className={clsx('hero hero--primary', styles.heroBanner)} style={{ transform: 'skewY(-2deg)',marginTop:-50,padding:'5rem 0 4rem 0'}}>
+                <div className="container" style={{transform: 'skewY(+2deg)'}}>
                     <h1 className="hero__title">{siteConfig.title}</h1>
                     <p className="hero__subtitle">{siteConfig.tagline}</p>
                     <img src="/img/SME1.webp" style={{width: '40rem'}} alt="Story Mapping Hero Image"/>
@@ -126,6 +126,8 @@ function Home() {
                 </div>
             </header>
             <main>
+                {showImage && <ModalImage onClose={() => setShowImage(undefined)} src={showImage} />}
+
                 <div style={{margin:'auto',maxWidth:300,textAlign:'center'}}><h2>Free Features</h2></div>
 
                 {features && features.length > 0 && (
@@ -133,14 +135,16 @@ function Home() {
                         <div className="container">
                             <div className="row">
                                 {features.map((props, idx) => (
-                                    <Feature key={idx} {...props} />
+                                    <Feature setShowImage={setShowImage} key={idx} {...props} />
                                 ))}
                             </div>
                         </div>
                     </section>
                 )}
+                <br />
 
-                <div style={{  backgroundColor: '#fff', padding: "2rem 0 2rem 0"}}>
+                <div style={{  backgroundColor: '#fff', padding: "5rem 0 5rem 0", transform: 'skewY(+2deg)', marginBottom: -120}}>
+                    <div style={{transform: 'skewY(-2deg)'}}>
                     <div style={{margin:'auto',maxWidth:300,textAlign:'center'}}><h2>Get even more with Pro</h2></div>
 
                     {proFeatures && proFeatures.length > 0 && (
@@ -148,13 +152,13 @@ function Home() {
                             <div className="container">
                                 <div className="row">
                                     {proFeatures.map((props, idx) => (
-                                        <Feature key={idx} {...props} />
+                                        <Feature setShowImage={setShowImage} key={idx} {...props} />
                                     ))}
                                 </div>
                             </div>
                         </section>
                     )}
-
+                    </div>
                 </div>
 
             </main>
