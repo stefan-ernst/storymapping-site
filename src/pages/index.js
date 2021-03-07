@@ -95,7 +95,7 @@ function Home() {
             title={`${siteConfig.title}`}
             description="Description will go into a meta tag in <head />">
             <header className={clsx('hero hero--primary', styles.heroBanner)} style={{ transform: 'skewY(-2deg)',marginTop:-50,padding:'5rem 0 4rem 0'}}>
-                <div className="container" style={{transform: 'skewY(+2deg)'}}>
+                <div className="container" style={{transform: 'skewY(+2deg)',paddingTop:'2rem'}}>
                     <h1 className="hero__title">{siteConfig.title}</h1>
                     <p className="hero__subtitle">{siteConfig.tagline}</p>
                     <img src="/img/SME1.webp" style={{width: '40rem'}} alt="Story Mapping Hero Image"/>
