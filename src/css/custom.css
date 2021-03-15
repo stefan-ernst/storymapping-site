@@ -200,6 +200,7 @@ h3 {
 @media screen and (max-width: 966px) {
   .heroBox {
     flex-direction: column;
+    border-radius: 0;
   }
   .heroBox-text {
     padding: 1rem;
