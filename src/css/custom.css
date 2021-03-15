@@ -181,11 +181,15 @@ h3 {
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
   gap: 10px;
   margin: auto;
-  width: 60%;
+  width: 100%;
   border-radius: 10px;
   background-image: linear-gradient( 154deg, rgb(1, 51, 115) 0%, rgb(20, 132, 188) 100%);
   max-width: 1280px;
   justify-content: space-between;
+}
+
+.heroBox img {
+  object-fit: contain;
 }
 
 .heroBox-text {
@@ -196,6 +200,9 @@ h3 {
 @media screen and (max-width: 966px) {
   .heroBox {
     flex-direction: column;
+  }
+  .heroBox-text {
+    padding: 1rem;
   }
 }
 
