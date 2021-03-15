@@ -12,9 +12,23 @@
   overflow: hidden;
 }
 
+.heroBox {
+  padding: 2rem;
+  display: flex;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  gap: 10px;
+  margin: auto;
+  width: 60%;
+  border-radius: 10px;
+  background-image: linear-gradient( 154deg, rgb(1, 51, 115) 0%, rgb(20, 132, 188) 100%);
+}
+
 @media screen and (max-width: 966px) {
   .heroBanner {
     padding: 2rem;
+  }
+  .heroBox {
+    flex-direction: column;
   }
 }
 
