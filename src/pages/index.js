@@ -135,7 +135,7 @@ function Home() {
                         <h2>Manage & Prioritize</h2>
                         Story Mapping for Jira was designed from the ground up to be easily installed and used to get your team up and running quickly
                     </div>
-                    <img src="/img/Basic.png" style={{width:493,height:'auto',objectFit:'contain'}} />
+                    <img src="/img/Basic.png" style={{width:493,height:'auto',maxHeight:378}} />
 
                 </div>
 
@@ -151,7 +151,7 @@ function Home() {
                             <li>Manage and plan your next sprint or release right from the story map.</li>
                         </ul>
                     </div>
-                    <img src="/img/Basic2.png" style={{width:493,height:'auto'}} />
+                    <img src="/img/Basic2.png" style={{width:493,height:'auto',maxHeight:378}} />
 
 
 
@@ -169,7 +169,7 @@ function Home() {
                         </ul>
 
                     </div>
-                    <img src="/img/AddRelease.png" style={{width:290,height:'auto'}} />
+                    <img src="/img/AddRelease.png" style={{width:290,height:'auto',maxHeight:306}} />
 
                 </div>
 
@@ -207,7 +207,7 @@ function Home() {
                             </ul>
 
                         </div>
-                        <img src="/img/GoalEpics.png" style={{width:493,height:'auto'}} />
+                        <img src="/img/GoalEpics.png" style={{maxWidth:493,height:'auto',maxHeight:454}} />
 
                     </div>
                         <br />
@@ -222,7 +222,7 @@ function Home() {
                             </ul>
 
                         </div>
-                        <img src="/img/Estimation.png" style={{width:493,height:'auto'}} />
+                        <img src="/img/Estimation.png" style={{width:493,height:'auto',maxHeight:378}} />
 
                     </div>
 
@@ -239,7 +239,7 @@ function Home() {
                             </ul>
 
                         </div>
-                        <img src="/img/Timeframes.png" style={{width:490,height:'auto'}} />
+                        <img src="/img/Timeframes.png" style={{width:490,height:'auto',maxHeight:302}} />
 
                     </div>
 
