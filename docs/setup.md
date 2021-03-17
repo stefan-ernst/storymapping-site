@@ -8,11 +8,11 @@ import SelectBoard2 from '/static/img/smfree/selectboard2.png'
 
 
 After installation, Story Mapping app will be available in 
-all Software projects (Business projects are not supported at this time).
+all Software projects (Business projects are supported in the Pro version).
 
 When you first open the story map, you can start adding
 Epics and assigning tickets right away. 
-But it's best to set up the backlog from the start 
+It is a good idea to set up the backlog from the start 
 by selecting a board in top right-hand corner.
 
 <img src={SelectBoard} style={{width:'20rem'}} />
