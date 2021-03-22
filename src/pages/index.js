@@ -68,20 +68,16 @@ const proFeatures = [
     },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({imageUrl, title, description, setShowImage}) {
     const imgUrl = useBaseUrl(imageUrl);
-    const [showImage, setShowImage] = useState();
     return (
         <>
-            {showImage && <ModalImage onClose={() => setShowImage(false)} src={imageUrl} title={title} />}
             <div className={clsx('col col--4 text--center', styles.feature)}>
                 {imgUrl && (
                     <div className="text--center" style={{cursor:'pointer'}}>
-                        <img onClick={() => setShowImage(true)} className={styles.featureImage} src={imgUrl} alt={title}/>
+                        <img onClick={() => setShowImage(imgUrl)} className={styles.featureImage} src={imgUrl} alt={title}/>
                     </div>
                 )}
-                <h3 style={{fontWeight: 400}}>{title}</h3>
-                <p className="text--center">{description}</p>
             </div>
         </>
     );
@@ -90,12 +86,14 @@ function Feature({imageUrl, title, description}) {
 function Home() {
     const context = useDocusaurusContext();
     const {siteConfig = {}} = context;
+    const [showImage, setShowImage] = useState();
+
     return (
         <Layout
             title={`${siteConfig.title}`}
             description="Description will go into a meta tag in <head />">
-            <header className={clsx('hero hero--primary', styles.heroBanner)}>
-                <div className="container">
+            <header className={clsx('hero hero--primary', styles.heroBanner)} style={{ transform: 'skewY(-2deg)',marginTop:-50,padding:'5rem 0 4rem 0'}}>
+                <div className="container" style={{transform: 'skewY(+2deg)',paddingTop:'2rem'}}>
                     <h1 className="hero__title">{siteConfig.title}</h1>
                     <p className="hero__subtitle">{siteConfig.tagline}</p>
                     <img src="/img/SME1.webp" style={{width: '40rem'}} alt="Story Mapping Hero Image"/>
@@ -126,34 +124,165 @@ function Home() {
                 </div>
             </header>
             <main>
-                <div style={{margin:'auto',maxWidth:300,textAlign:'center'}}><h2>Free Features</h2></div>
+                {showImage && <ModalImage onClose={() => setShowImage(undefined)} src={showImage} />}
+
+                <div style={{margin:'auto',maxWidth:300,textAlign:'center'}}><h2>Free Features</h2>
+                <br /></div>
+
+
+                <div className='heroBox'>
+                    <div className='heroBox-text'>
+                        <h2>Manage & Prioritize</h2>
+                        Story Mapping for Jira was designed from the ground up to be easily installed and used to get your team up and running quickly
+                    </div>
+                    <img src="/img/Basic.png" style={{width:493,height:'auto',maxHeight:378}} />
+
+                </div>
+
+                <br />
+
+                <div className="heroBox">
+
+                    <div className='heroBox-text'>
+                        <h2>Edit on the fly</h2>
+                        <ul>
+                            <li>Easily assign issues to epics with drag & drop
+                            </li>
+                            <li>Manage and plan your next sprint or release right from the story map.</li>
+                        </ul>
+                    </div>
+                    <img src="/img/Basic2.png" style={{width:493,height:'auto',maxHeight:378}} />
+
+
+
+                </div>
+
+                <br />
+
+                <div className='heroBox'>
+
+                    <div className='heroBox-text'>
+                        <h2>Fully integrated</h2>
+                        <ul>
+                            <li>Create Jira issues directly from the story map</li>
+                            <li>Add releases, create and start sprints - all without leaving the app</li>
+                        </ul>
+
+                    </div>
+                    <img src="/img/AddRelease.png" style={{width:290,height:'auto',maxHeight:306}} />
+
+                </div>
+
+                <br />
+                <br />
+                <div style={{margin:'auto',maxWidth:300,textAlign:'center'}}><h2>Screenshots</h2></div>
+
+
 
                 {features && features.length > 0 && (
                     <section className={styles.features}>
                         <div className="container">
                             <div className="row">
                                 {features.map((props, idx) => (
-                                    <Feature key={idx} {...props} />
+                                    <Feature setShowImage={setShowImage} key={idx} {...props} />
                                 ))}
                             </div>
                         </div>
                     </section>
                 )}
+                <br />
 
-                <div style={{  backgroundColor: '#fff', padding: "2rem 0 2rem 0"}}>
-                    <div style={{margin:'auto',maxWidth:300,textAlign:'center'}}><h2>Get even more with Pro!</h2></div>
+                <div style={{  backgroundColor: '#fff', padding: "5rem 0 5rem 0", transform: 'skewY(+2deg)', marginBottom: -120}}>
+                    <div style={{transform: 'skewY(-2deg)'}}>
+                    <div style={{margin:'auto',maxWidth:300,textAlign:'center'}}><h2>Get even more with Pro</h2>
+                    <br /></div>
 
-                    {proFeatures && proFeatures.length > 0 && (
+                    <div className='heroBox'>
+
+                        <div className='heroBox-text'>
+                            <h2>Custom Goals</h2>
+                            <ul>
+                                <li>Create Jira issues directly from the story map</li>
+                                <li>Add releases, create and start sprints - all without leaving the app</li>
+                            </ul>
+
+                        </div>
+                        <img src="/img/GoalEpics.png" style={{maxWidth:493,height:'auto',maxHeight:454}} />
+
+                    </div>
+                        <br />
+
+                    <div className='heroBox'>
+
+                        <div className='heroBox-text'>
+                            <h2>Issue Estimation</h2>
+                            <ul>
+                                <li>Estimate issues in your story mapping sessions</li>
+                                <li>Discuss issues among the team with the context provided by your story map</li>
+                            </ul>
+
+                        </div>
+                        <img src="/img/Estimation.png" style={{width:493,height:'auto',maxHeight:378}} />
+
+                    </div>
+
+                    <br />
+
+                    <div className='heroBox'>
+
+                        <div className='heroBox-text'>
+                            <h2>Custom Timeframes</h2>
+                            <ul>
+                                <li>Sometimes releases and sprints are just not enough for planning</li>
+                                <li>Add custom timeframes to plan more long term</li>
+                                <li>Switch to planning mode to view issues on a time axis</li>
+                            </ul>
+
+                        </div>
+                        <img src="/img/Timeframes.png" style={{width:490,height:'auto',maxHeight:302}} />
+
+                    </div>
+
+
+                        <br />
+                        <br />
+                        <div style={{margin:'auto',maxWidth:300,textAlign:'center'}}><h2>Screenshots</h2></div>
+
+
+                        {proFeatures && proFeatures.length > 0 && (
                         <section className={styles.features}>
                             <div className="container">
                                 <div className="row">
                                     {proFeatures.map((props, idx) => (
-                                        <Feature key={idx} {...props} />
+                                        <Feature setShowImage={setShowImage} key={idx} {...props} />
                                     ))}
                                 </div>
                             </div>
                         </section>
                     )}
+
+                        <div className={styles.buttons}>
+                            <Link
+                                className={clsx(
+                                    'button button--outline button--lg button-light',
+                                    styles.getStarted,
+                                )}
+                                to={useBaseUrl('docs/')}>
+                                Documentation
+                            </Link> &nbsp;
+                            <Link
+                                className={clsx(
+                                    'button button--outline button--lg button--primary shadow-lg',
+                                    styles.getStarted,
+                                )}
+                                to={"https://marketplace.atlassian.com/1224417"}>
+                                Try free
+                            </Link>
+                        </div>
+
+                    </div>
+
+
 
                 </div>
 

@@ -4,21 +4,27 @@ title: Feature Roadmap
 ---
 import CheckItem from './components/CheckItem';
 
-We are committed to bringing more features to the free version of story mapping app.
-
-The following list is a set of tentative ideas.
+Here is how the free version and the pro version of Story Mapping app compare:
 
 | Feature        |      Story Mapping for Jira - Free      |   Story Mapping for Jira - Pro |
 | ------------- | :-----------: | :-----------: |
-| Issue Estimation     | <CheckItem /> |  <CheckItem /> |
+| Issue Estimation     | <CheckItem color="blue" /> |  <CheckItem /> |
 | Goals    | <CheckItem isX /> |  <CheckItem /> |
-| Filter for completed sprints   |    <CheckItem />    |   <CheckItem /> |
+| Filter for completed sprints   |    <CheckItem color="blue" />    |   <CheckItem color="blue" /> |
 | Export |   <CheckItem isX />     |    <CheckItem />  |
 | Quick filters |    <CheckItem isX />     |    <CheckItem />  |
-| Issue Preview |    <CheckItem />     |    <CheckItem />  |
+| Issue Preview |    <CheckItem color="blue" />     |    <CheckItem color="blue" />  |
 | Using custom issue types <br /> in epic column |    <CheckItem isX />     |    <CheckItem />  |
 | Support for Jira Core &<br /> Jira Service Management|    <CheckItem isX />     |    <CheckItem />  |
 | Server & DC Version |    <CheckItem isX />     |    <CheckItem />  |
 
-Missing a feature that is not on this list? [Get in touch with us](https://realignedtechnologies.atlassian.net/servicedesk/customer/portals)!
+<CheckItem /> = Feature available<br />
+
+<CheckItem color="blue"/> = Feature planned<br />
+
+<CheckItem isX /> = Feature not available<br />
+<br />
+Missing a feature that is not on this list? 
+
+[Get in touch with us](https://realignedtechnologies.atlassian.net/servicedesk/customer/portals)!
 

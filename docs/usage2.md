@@ -18,7 +18,7 @@ In sprint planning mode, you will be able to see all open or future sprints of t
 You can drag and drop issues into sprint columns. You can also assign issues to a new epic 
 and a new sprint at the same time.
 
-I needed, you can create new sprints directly from the story map. Notice that this might fail if
+If needed, you can create new sprints directly from the story map. Notice that this might fail if
 board permissions are not setup correctly, see [Troubleshooting](/docs/troubleshooting) for more details.
 
 ### Planning releases

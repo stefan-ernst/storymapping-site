@@ -77,6 +77,10 @@ h3 {
 .navbar--dark {
   background-color: var(--realigned-royal-blue);
 }
+
+.footer {
+  padding-top:8rem;
+}
 .footer--dark {
   background-color: var(--realigned-dark-blue);
 }
@@ -168,4 +172,50 @@ h3 {
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+
+.heroBox {
+  padding: 2rem;
+  display: flex;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  gap: 10px;
+  margin: auto;
+  width: 100%;
+  border-radius: 10px;
+  background-image: linear-gradient( 154deg, rgb(1, 51, 115) 0%, rgb(20, 132, 188) 100%);
+  max-width: 1050px;
+  justify-content: space-between;
+}
+
+.heroBox img {
+  object-fit: contain;
+}
+
+.heroBox-text {
+  color: white;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 966px) {
+  .heroBox {
+    flex-direction: column;
+    border-radius: 0;
+  }
+  .heroBox-text {
+    padding: 1rem;
+  }
+  .heroBox img {
+    object-fit: contain;
+  }
+}
+
+.button-light {
+  color: #aaa !important;
+  border-color: #ccc;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
+
 }
