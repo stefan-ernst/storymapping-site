@@ -123,7 +123,7 @@ function Home() {
                     </div>
                 </div>
             </header>
-            <main>
+            <main className='frontpage'>
                 {showImage && <ModalImage onClose={() => setShowImage(undefined)} src={showImage} />}
 
                 <div style={{margin:'auto',maxWidth:300,textAlign:'center'}}><h2>Free Features</h2>
