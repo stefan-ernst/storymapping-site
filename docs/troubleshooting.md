@@ -55,9 +55,9 @@ the estimation feature via Story Mapping app - you need to make sure the story p
 3. You entered an invalid value for the field. Story Mapping app will try to cast any value
 to a number but this can fail.
 
-### I can't find Story Mapping App in the project sidebar
+### I can't find Story Mapping App in the project sidebar (Free Edition)
 
-Currently only Software Projects are supported. You won't find the Sidebar item in Business or Jira Service Management projects.
+Currently only Software Projects are supported in the free edition (the Pro edition supports all project types). You won't find the Sidebar item in Business or Jira Service Management projects.
 
 Additionally, you need "Edit Issues" permission in the project in order to use the story mapping features.
 
@@ -69,4 +69,5 @@ If you do, Story Mapping app will ask you for the epic type once. In the free ve
 feature to change this later. But if you absolutely need to, you can look at the Projects Entity Properties (you can install the [Entity Property Tool](https://marketplace.atlassian.com/apps/1214509/entity-property-tool-for-jira?hosting=cloud&tab=overview) to do this) - then
 change the "tech.realigned.project.stmEpicId" property to the new value.
 
-Note that a feature to use arbitrary issue types as epics will be included in the Pro version.
+Note that a feature to use arbitrary issue types as epics is included in the Pro version.
+The free edition only works with the default epic issue type of Jira.
