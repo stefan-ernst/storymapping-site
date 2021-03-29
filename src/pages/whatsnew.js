@@ -23,6 +23,16 @@ export default function WhatsNew() {
                 <br />
                 <a className="blue" href="https://www.storymapping.app/docs/pro-features/#adding-custom-fields-to-cards" rel="noopener" target="_blank">Learn more</a>
             </p>
+
+            <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
+                <h3 style={{marginBottom:1}}>Bugfixes</h3>
+                <span><Status text="Pro" /> <Status text="Free" isFree /></span></div>
+            <p>
+                <ul>
+                    <li>Fixed a visual issue with large textfields in the Epic row</li>
+                    <li>Sprints can now be assigned more reliably</li>
+                </ul>
+            </p>
         </div>
     )
 }
