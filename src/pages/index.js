@@ -202,8 +202,8 @@ function Home() {
                         <div className='heroBox-text'>
                             <h2>Custom Goals</h2>
                             <ul>
-                                <li>Create Jira issues directly from the story map</li>
-                                <li>Add releases, create and start sprints - all without leaving the app</li>
+                                <li>Organize your Epics with custom goals</li>
+                                <li>Use the goal level to facilitate better understanding among your stakeholders</li>
                             </ul>
 
                         </div>
