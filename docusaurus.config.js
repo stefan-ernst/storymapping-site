@@ -27,6 +27,7 @@ module.exports = {
                     label: 'Documentation',
                     position: 'left',
                 },
+                {to: 'blog', label: 'Blog', position: 'left'},
                 {
                     to: 'https://marketplace.atlassian.com/1224357',
                     label: 'Download free',
@@ -38,8 +39,7 @@ module.exports = {
                     label: 'Try Pro!',
                     position: 'left',
                     target: '_blank'
-                }
-                /*{to: 'blog', label: 'Blog', position: 'left'},*/
+                },
             ],
         },
         footer: {

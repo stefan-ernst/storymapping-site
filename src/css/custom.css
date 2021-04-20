@@ -29,10 +29,14 @@
   --ifm-h1-font-size: 2rem;
   --ifm-container-width: 1280px;
   --ifm-background-surface-color: #004c8a;
+  --ifm-link-color: #013373;
 }
 
 main {
   padding: 0 0 0 0;
+  background-color: #f5f5f5;
+}
+.main-wrapper {
   background-color: #f5f5f5;
 }
 
