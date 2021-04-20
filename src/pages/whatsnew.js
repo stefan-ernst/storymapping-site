@@ -9,6 +9,16 @@ export default function WhatsNew() {
         <div style={{padding:10,backgroundColor:'white'}}>
             <small>April 2021</small>
             <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
+                <h3 style={{marginBottom:1}}>Major Release 04/21 (1.4 DC)</h3>
+                <span><Status text="Pro" /> </span></div>
+            <p>
+                <ul>
+                    <li>You can now use a custom link type to connect issues to epics</li>
+                    <li>Minimize release, sprint or custom swimlanes</li>
+                    <li>View issues with any status in the backlog</li>
+                </ul>
+            </p>
+            <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
                 <h3 style={{marginBottom:1}}>Improving the Backlog</h3>
                 <span><Status text="Pro" /> <Status text="Free" isFree /></span></div>
             <p>
