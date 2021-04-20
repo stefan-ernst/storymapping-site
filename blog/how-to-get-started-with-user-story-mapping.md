@@ -3,7 +3,7 @@ title: How to get started with User Story Mapping - for free
 author: Stefan Ernst
 author_title: Co-creator of Story Mapping App
 tags: [story-mapping,free-edition]
-description: Get the team talking to each other about solutions in the context of end users
+description: Creating a story map for your team does not have to be complicated. Learn how you can start with user story mapping in Jira - completely for free.
 hide_table_of_contents: false
 ---
 
