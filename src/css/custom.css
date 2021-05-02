@@ -108,7 +108,7 @@ h3 {
   background-color: var(--realigned-royal-blue);
   */
   font-weight: 400;
-  background: linear-gradient(135deg, #1388E7 2.64%, #1AB1BC 102.56%, #1AB1BB 102.57%, #6B30C4 102.58%, #2874BB 102.74%, #1C7ED9 102.74%);
+  background-color: #0472CB;
 }
 
 .footer {
@@ -122,7 +122,7 @@ h3 {
 
 .footer--dark {
   /*background-color: var(--realigned-dark-blue);*/
-  background: linear-gradient(135deg, #1388E7 2.64%, #1AB1BC 102.56%, #1AB1BB 102.57%, #6B30C4 102.58%, #2874BB 102.74%, #1C7ED9 102.74%);
+background: linear-gradient(135deg, #0472CB 2.64%, #0AA1C2 102.55%, #1AB1BC 102.56%, #1AB1BB 102.57%, #6B30C4 102.58%, #2874BB 102.74%, #1C7ED9 102.74%);
 }
 .navbar__link:hover, .navbar__link--active {
   color: var(--realigned-sky-blue);
@@ -136,7 +136,7 @@ h3 {
   /*
   background: linear-gradient( 154deg, rgb(1, 51, 115) 0%, rgb(20, 132, 188) 100%);
   */
-  background: linear-gradient(135deg, #1388E7 2.64%, #1AB1BC 102.56%, #1AB1BB 102.57%, #6B30C4 102.58%, #2874BB 102.74%, #1C7ED9 102.74%);
+background: linear-gradient(135deg, #0472CB 2.64%, #0AA1C2 102.55%, #1AB1BC 102.56%, #1AB1BB 102.57%, #6B30C4 102.58%, #2874BB 102.74%, #1C7ED9 102.74%);
 }
 
 .blanket {
@@ -174,7 +174,7 @@ h3 {
   /*
   background-color: var(--realigned-dark-blue);
   */
-  background: linear-gradient(135deg, #1388E7 2.64%, #1AB1BC 102.56%, #1AB1BB 102.57%, #6B30C4 102.58%, #2874BB 102.74%, #1C7ED9 102.74%);
+background: linear-gradient(135deg, #0472CB 2.64%, #0AA1C2 102.55%, #1AB1BC 102.56%, #1AB1BB 102.57%, #6B30C4 102.58%, #2874BB 102.74%, #1C7ED9 102.74%);
 }
 
 .navbar-sidebar__items .menu__link {
@@ -235,8 +235,7 @@ h3 {
   /*
   background-image: linear-gradient( 154deg, rgb(1, 51, 115) 0%, rgb(20, 132, 188) 100%);
   */
-  background: linear-gradient(135deg, #1388E7 2.64%, #1AB1BC 102.56%, #1AB1BB 102.57%, #6B30C4 102.58%, #2874BB 102.74%, #1C7ED9 102.74%);
-
+background: linear-gradient(135deg, #0472CB 2.64%, #0AA1C2 102.55%, #1AB1BC 102.56%, #1AB1BB 102.57%, #6B30C4 102.58%, #2874BB 102.74%, #1C7ED9 102.74%);
   max-width: 1050px;
   justify-content: space-between;
 }
