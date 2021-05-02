@@ -18,7 +18,7 @@ module.exports = {
             title: 'Story Mapping for Jira',
             logo: {
                 alt: 'Story Mapping for Jira Logo',
-                src: 'img/FreeIcon.svg',
+                src: 'img/StoryMapIcon.svg',
             },
             items: [
                 {
@@ -102,7 +102,7 @@ module.exports = {
             ],
             logo: {
                 alt: 'Realigned Logo',
-                src: '/img/realigned.svg',
+                src: '/img/RealignedLogo.svg',
             },
             copyright: `Copyright © ${new Date().getFullYear()} Realigned Technologies Ltd. `,
         },

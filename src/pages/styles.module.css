@@ -20,7 +20,11 @@
   margin: auto;
   width: 60%;
   border-radius: 10px;
+  /*
   background-image: linear-gradient( 154deg, rgb(1, 51, 115) 0%, rgb(20, 132, 188) 100%);
+  */
+  background: linear-gradient(135deg, #1388E7 2.64%, #1AB1BC 102.56%, #1AB1BB 102.57%, #6B30C4 102.58%, #2874BB 102.74%, #1C7ED9 102.74%);
+
 }
 
 @media screen and (max-width: 966px) {

@@ -192,7 +192,7 @@ function Home() {
                 )}
                 <br />
 
-                <div style={{  backgroundColor: '#fff', padding: "5rem 0 5rem 0", transform: 'skewY(+2deg)', marginBottom: -120}}>
+                <div style={{  backgroundColor: '#fff', padding: "5rem 0 5rem 0", transform: 'skewY(+2deg)', marginBottom: -100}}>
                     <div style={{transform: 'skewY(-2deg)'}}>
                     <div style={{margin:'auto',maxWidth:300,textAlign:'center'}}><h2>Get even more with Pro</h2>
                     <br /></div>
@@ -281,8 +281,6 @@ function Home() {
                         </div>
 
                     </div>
-
-
 
                 </div>
 

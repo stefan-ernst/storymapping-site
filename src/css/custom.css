@@ -15,15 +15,15 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
-  --ifm-navbar-height: 70px;
+  --ifm-navbar-height: 80px;
   --ifm-font-color-base-inverse: #ffffff;
   --ifm-font-family-base: -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont;
   --ifm-background-color: #ffffff;
   --ifm-color-content: #2D3747;
   --collapse-button-bg-color-dark: #fff;
   --realigned-blue: #1774C8;
-  --realigned-bright-blue: #3699F2;
-  --realigned-sky-blue: #1FB6FF;
+  --realigned-bright-blue: #4baaff;
+  --realigned-sky-blue: #63caff;
   --realigned-dark-blue: #013373;
   --realigned-royal-blue: #004c8a;
   --ifm-h1-font-size: 2rem;
@@ -88,23 +88,41 @@ h3 {
   color: white;
 }
 
+.navbar__title {
+  padding-left: 8px;
+  font-size: 1.25rem;
+  padding-right: 1rem;
+}
+
 .navbar__brand:hover {
   color: var(--realigned-sky-blue);
 }
 
-.navbar--dark {
-  background-color: var(--realigned-royal-blue);
+.navbar__item {
+  padding-top: 0.5rem;
+  font-weight: 600;
 }
 
-.menu {
-  background-color: #f5f5f5;
+.navbar--dark {
+  /*
+  background-color: var(--realigned-royal-blue);
+  */
+  font-weight: 400;
+  background: linear-gradient(135deg, #1388E7 2.64%, #1AB1BC 102.56%, #1AB1BB 102.57%, #6B30C4 102.58%, #2874BB 102.74%, #1C7ED9 102.74%);
 }
 
 .footer {
-  padding-top:8rem;
+  padding-top: 6rem;
 }
+
+.menu {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
 .footer--dark {
-  background-color: var(--realigned-dark-blue);
+  /*background-color: var(--realigned-dark-blue);*/
+  background: linear-gradient(135deg, #1388E7 2.64%, #1AB1BC 102.56%, #1AB1BB 102.57%, #6B30C4 102.58%, #2874BB 102.74%, #1C7ED9 102.74%);
 }
 .navbar__link:hover, .navbar__link--active {
   color: var(--realigned-sky-blue);
@@ -115,7 +133,10 @@ h3 {
 
 
 .hero--primary {
+  /*
   background: linear-gradient( 154deg, rgb(1, 51, 115) 0%, rgb(20, 132, 188) 100%);
+  */
+  background: linear-gradient(135deg, #1388E7 2.64%, #1AB1BC 102.56%, #1AB1BB 102.57%, #6B30C4 102.58%, #2874BB 102.74%, #1C7ED9 102.74%);
 }
 
 .blanket {
@@ -150,7 +171,10 @@ h3 {
 }
 
 .navbar-sidebar {
+  /*
   background-color: var(--realigned-dark-blue);
+  */
+  background: linear-gradient(135deg, #1388E7 2.64%, #1AB1BC 102.56%, #1AB1BB 102.57%, #6B30C4 102.58%, #2874BB 102.74%, #1C7ED9 102.74%);
 }
 
 .navbar-sidebar__items .menu__link {
@@ -170,9 +194,12 @@ h3 {
 
 .button.button--secondary {
   background-color: inherit;
-  color: white !important;
   border-width: 0;
   font-weight: 400;
+}
+
+.button--lg {
+  color: white !important;
 }
 
 .footer__logo {
@@ -205,7 +232,11 @@ h3 {
   margin: auto;
   width: 100%;
   border-radius: 10px;
+  /*
   background-image: linear-gradient( 154deg, rgb(1, 51, 115) 0%, rgb(20, 132, 188) 100%);
+  */
+  background: linear-gradient(135deg, #1388E7 2.64%, #1AB1BC 102.56%, #1AB1BB 102.57%, #6B30C4 102.58%, #2874BB 102.74%, #1C7ED9 102.74%);
+
   max-width: 1050px;
   justify-content: space-between;
 }
