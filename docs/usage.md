@@ -10,11 +10,9 @@ or create a new epic.
 
 ![First Epic](/img/smfree/smetutorial1.png)
 
-The search is limited to epics from the current project. 
+You can assign issues to the epic the same way, either search for them or create new ones.
 
-To the epic you can add issues the same way, either search for them or create new ones.
-
-#### Creating a ticket
+#### Creating an issue
 
 ![Creating a task](/img/smfree/smetutorial2.png)
 
