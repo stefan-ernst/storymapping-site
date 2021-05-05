@@ -27,9 +27,8 @@ export default function WhatsNew() {
                     <li>Improved create functionality for both epics and issues</li>
                     <li>Minimize release, sprint or custom swimlanes</li>
                     <li>Fixed display issues with long issue summaries</li>
-
                 </ul>
-                If you like Story Mapping App, please rate us on the <a href="https://marketplace.atlassian.com/1224357" target="_blank">Atlassian Marketplace!</a> ❤️
+                If you like Story Mapping App,<br /> please rate us on the <a href="https://marketplace.atlassian.com/1224357" target="_blank">Atlassian Marketplace!</a> ❤️
             </p>
             <small>April 2021</small>
             <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
