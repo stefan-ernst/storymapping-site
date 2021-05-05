@@ -7,6 +7,28 @@ export default function WhatsNew() {
 
     return (
         <div style={{padding:10,backgroundColor:'white'}}>
+            <small>May 2021</small>
+            <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
+                <h3 style={{marginBottom:1}}>Improvement Release 05/21</h3>
+                <span><Status text="Pro" /> </span></div>
+            <p>
+                <ul>
+                    <li>Improved create functionality for both epics and issues</li>
+                    <li>Improved scrolling behaviour on Server & DC</li>
+                    <li>Epic colors can now be used for the entire column</li>
+                    <li>Fixed a bug that prevented issue linking when a custom link type is used</li>
+                </ul>
+            </p>
+            <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
+                <h3 style={{marginBottom:1}}>Free Version Improvements 05/21</h3>
+                <span><Status text="Free" isFree /> </span></div>
+            <p>
+                <ul>
+                    <li>Improved create functionality for both epics and issues</li>
+                    <li>Minimize release, sprint or custom swimlanes</li>
+                    <li>Fixed display issues with long issue summaries</li>
+                </ul>
+            </p>
             <small>April 2021</small>
             <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
                 <h3 style={{marginBottom:1}}>Major Release 04/21 (1.4 DC)</h3>
