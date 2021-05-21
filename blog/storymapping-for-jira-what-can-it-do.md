@@ -14,7 +14,7 @@ import StoryMapping2 from '../static/img/blog/storymapping2_1.png'
 import StoryMapping3 from '../static/img/blog/storymapping3_1.png'
 import StoryMapping4 from '../static/img/blog/storymapping4_1.png'
 import StoryMapping5 from '../static/img/blog/storymapping5.png'
-import StoryMapping6 from '../static/img/blog/storymapping5.png'
+import StoryMapping6 from '../static/img/blog/storymapping6.png'
 
 
 Instead of creating story maps the old-fashioned way - offline on a physical board - 
@@ -75,7 +75,7 @@ You can toggle the goal visibility by clicking the ellipsis icon on the top righ
 
 By default, Jira only lets you link issues to epics in a one-to-many relationship. Story Mapping for Jira’s Pro version overrides that by introducing the concept of virtual linking, which allows any type to be linked to each other, such as Epics to Epics. You can also use this feature if you don't want to actually change the epic relationships of certain issues or if you want to use a custom issue type instead of Epics. This feature can be toggled in the Settings view.
 
-<img src={StoryMapping6}  alt="How custom goals work" />
+<img src={StoryMapping6}  alt="Virtual Linking Settings Screen" />
 
 Once you have decided to use the features provided by the Pro version, upgrading will be very easy. You just have to simply install the Pro edition and make sure to uninstall the free edition of Story Mapping for Jira, as there will be two menu entries otherwise.
 
