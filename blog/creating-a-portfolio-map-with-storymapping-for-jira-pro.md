@@ -4,6 +4,7 @@ author: Stefan Ernst
 author_title: Co-creator of Story Mapping App
 tags: [story-mapping,pro-edition,portfolio-management]
 description: Jira is not only used by software teams, but it can be really useful even for portfolio management. Learn how you can create a simple portfolio map using Story Mapping for Jira - Pro.
+date: "2021-04-20T12:30:07.322Z"
 hide_table_of_contents: false
 ---
 import PortfolioMap from '../static/img/blog/PortfolioMap.png'
