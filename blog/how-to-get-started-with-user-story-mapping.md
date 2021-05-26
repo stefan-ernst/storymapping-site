@@ -4,6 +4,7 @@ author: Stefan Ernst
 author_title: Co-creator of Story Mapping App
 tags: [story-mapping,free-edition]
 description: Creating a story map for your team does not have to be complicated. Learn how you can start with user story mapping in Jira - completely for free.
+date: "2021-04-19T10:30:07.322Z"
 hide_table_of_contents: false
 ---
 
