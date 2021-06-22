@@ -7,6 +7,18 @@ export default function WhatsNew() {
 
     return (
         <div style={{padding:10,backgroundColor:'white'}}>
+            <small>June 2021</small>
+            <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
+                <h3 style={{marginBottom:1}}>Free Version Improvements 06/21</h3>
+                <span><Status text="Free" isFree /> </span></div>
+            <p>
+                <ul>
+                    <li>The app now takes full advantage of epics, syncing changes from the story map with Jira epics and vice versa</li>
+                    <li>Fixed an issue when searching for issues</li>
+                    <li>Small visual improvements</li>
+                </ul>
+                If you like Story Mapping App,<br /> please rate us on the <a href="https://marketplace.atlassian.com/1224357" target="_blank">Atlassian Marketplace!</a> ❤️
+            </p>
             <small>May 2021</small>
             <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
                 <h3 style={{marginBottom:1}}>Improvement Release 05/21</h3>
@@ -39,16 +51,6 @@ export default function WhatsNew() {
                     <li>You can now use a custom link type to connect issues to epics</li>
                     <li>Minimize release, sprint or custom swimlanes</li>
                     <li>View issues with any status in the backlog</li>
-                </ul>
-            </p>
-            <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
-                <h3 style={{marginBottom:1}}>Improving the Backlog</h3>
-                <span><Status text="Pro" /> <Status text="Free" isFree /></span></div>
-            <p>
-                <ul>
-                    <li>We moved the backlog to the left for easier access</li>
-                    <li>The backlog supports ordering now</li>
-                    <li>Dragging issues from the backlog now removes them instantly</li>
                 </ul>
             </p>
             <small>March 2021</small>
