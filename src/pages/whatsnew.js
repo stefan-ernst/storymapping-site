@@ -14,7 +14,7 @@ export default function WhatsNew() {
             <p>
                 <ul>
                     <li>The app now takes full advantage of epics, syncing changes from the story map with Jira epics and vice versa</li>
-                    <li>Fixed an issue when searching for issues</li>
+                    <li>Fixed a bug with whitespaces in search terms</li>
                     <li>Small visual improvements</li>
                 </ul>
                 If you like Story Mapping App,<br /> please rate us on the <a href="https://marketplace.atlassian.com/1224357" target="_blank">Atlassian Marketplace!</a> ❤️
