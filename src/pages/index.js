@@ -200,14 +200,14 @@ function Home() {
                     <div className='heroBox'>
 
                         <div className='heroBox-text'>
-                            <h2>Custom Goals</h2>
+                            <h2>Custom Issue Types</h2>
                             <ul>
-                                <li>Organize your Epics with custom goals</li>
-                                <li>Use the goal level to facilitate better understanding among your stakeholders</li>
+                                <li>Use any issue type for your story map</li>
+                                <li>Link issues with custom issue link types</li>
+                                <li>Build story maps in Jira Business projects</li>
                             </ul>
-
                         </div>
-                        <img src="/img/GoalEpics.png" style={{maxWidth:493,height:'auto',maxHeight:454}} />
+                        <img src="/img/CustomIssues.png" style={{maxWidth:493,height:'auto',maxHeight:454}} />
 
                     </div>
                         <br />
@@ -215,14 +215,14 @@ function Home() {
                     <div className='heroBox'>
 
                         <div className='heroBox-text'>
-                            <h2>Issue Estimation</h2>
+                            <h2>Custom Fields</h2>
                             <ul>
-                                <li>Estimate issues in your story mapping sessions</li>
-                                <li>Discuss issues among the team with the context provided by your story map</li>
+                                <li>Customize your issue cards the way you want it</li>
+                                <li>Display useful additional information in the story map</li>
                             </ul>
 
                         </div>
-                        <img src="/img/Estimation.png" style={{width:493,height:'auto',maxHeight:378}} />
+                        <img src="/img/CustomFields2.png" style={{width:493,height:'auto',maxHeight:378}} />
 
                     </div>
 
