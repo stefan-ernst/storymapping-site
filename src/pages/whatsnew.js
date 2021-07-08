@@ -7,6 +7,17 @@ export default function WhatsNew() {
 
     return (
         <div style={{padding:10,backgroundColor:'white'}}>
+            <small>July 2021</small>
+            <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
+                <h3 style={{marginBottom:1}}>Pro Version improvements 07/21</h3>
+                <span><Status text="Pro" /> </span></div>
+            <p>
+                <ul>
+                    <li>Like the free version, the Pro version now fully integrates Epic Links</li>
+                    <li>Additionally, the Pro version can make use of Jira issue links, syncing existing relationships into the story map</li>
+                    <li>Totals for story point estimates are displayed for each swimlane</li>
+                </ul>
+            </p>
             <small>June 2021</small>
             <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
                 <h3 style={{marginBottom:1}}>Free Version Improvements 06/21</h3>
@@ -53,22 +64,7 @@ export default function WhatsNew() {
                     <li>View issues with any status in the backlog</li>
                 </ul>
             </p>
-            <small>March 2021</small>
-            <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
-                <h3 style={{marginBottom:1}}>Improved Drag & Drop Handling</h3>
-                <span><Status text="Pro" /> <Status text="Free" isFree /></span></div>
-            <p>
-                We have improved our drag and drop engine to be more reliable and easy to use
-            </p>
-            <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
-                <h3 style={{marginBottom:1}}>Card custom fields</h3>
-                <span><Status text="Pro" /></span></div>
-            <p>
-                Display custom fields on cards, bring just the right level of information to your team's attention, at a glance.<br />
-                <img src={CustomCard} style={{width:226,height:110,margin:"10px 0 4px 0"}} />
-                <br />
-                <a className="blue" href="https://www.storymapping.app/docs/pro-features/#adding-custom-fields-to-cards" rel="noopener" target="_blank">Learn more</a>
-            </p>
+
 
 
         </div>
