@@ -9,6 +9,18 @@ export default function WhatsNew() {
         <div style={{padding:10,backgroundColor:'white'}}>
             <small>July 2021</small>
             <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
+                <h3 style={{marginBottom:1}}>Free Version Improvements 07/21</h3>
+                <span><Status text="Free" isFree /> </span></div>
+            <p>
+                <ul>
+                    <li>Introduced the swimlane dropdown from the Pro-Version, reducing visual clutter</li>
+                    <li>Closed sprints and released versions can now be displayed in the story map via the new settings page</li>
+                    <li>Improved error message display for Jira errors</li>
+                </ul>
+                If you like Story Mapping App,<br /> please rate us on the <a href="https://marketplace.atlassian.com/1224357" target="_blank">Atlassian Marketplace!</a>
+            </p>
+            <small>July 2021</small>
+            <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
                 <h3 style={{marginBottom:1}}>Pro Version improvements 07/21</h3>
                 <span><Status text="Pro" /> </span></div>
             <p>
@@ -28,7 +40,6 @@ export default function WhatsNew() {
                     <li>Fixed a bug with whitespaces in search terms</li>
                     <li>Small visual improvements</li>
                 </ul>
-                If you like Story Mapping App,<br /> please rate us on the <a href="https://marketplace.atlassian.com/1224357" target="_blank">Atlassian Marketplace!</a> ❤️
             </p>
             <small>May 2021</small>
             <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
@@ -50,18 +61,6 @@ export default function WhatsNew() {
                     <li>Improved create functionality for both epics and issues</li>
                     <li>Minimize release, sprint or custom swimlanes</li>
                     <li>Fixed display issues with long issue summaries</li>
-                </ul>
-                If you like Story Mapping App,<br /> please rate us on the <a href="https://marketplace.atlassian.com/1224357" target="_blank">Atlassian Marketplace!</a> ❤️
-            </p>
-            <small>April 2021</small>
-            <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
-                <h3 style={{marginBottom:1}}>Major Release 04/21 (1.4 DC)</h3>
-                <span><Status text="Pro" /> </span></div>
-            <p>
-                <ul>
-                    <li>You can now use a custom link type to connect issues to epics</li>
-                    <li>Minimize release, sprint or custom swimlanes</li>
-                    <li>View issues with any status in the backlog</li>
                 </ul>
             </p>
 
