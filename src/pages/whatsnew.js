@@ -14,7 +14,7 @@ export default function WhatsNew({background='white'}) {
             <p>
                 Even more changes are coming to Story Mapping app this month!
                 <ul>
-                    <li>We overhauled the story map settings to make them easier to use and less confusing</li>
+                    <li>We overhauled the story map settings to make them easier to use</li>
                     <li>You can now view closed sprints and released version on the story map</li>
                     <li>Select any agile board for your story map's backlog</li>
                     <li>Custom fields on cards can now be sorted</li>
