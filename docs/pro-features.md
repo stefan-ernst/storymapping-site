@@ -4,7 +4,7 @@ title: Pro Features
 ---
 
 import EpicSelect from '../static/img/EpicSelect.png'
-
+import LinkSelect from '../static/img/LinkSelect.png'
 
 ### Activating the Goals Feature
 
@@ -55,9 +55,20 @@ The epic type dropdown can be accessed from the settings menu.
 When switching the epic type from the default built-in Epic issue type,
 the story map will automatically switch to virtual linking which can not be disabled.
 
-### What is virtual linking?
+### Disabling Epic Linking
 
 Story Mapping Pro introduces virtual linking to give you more flexibility.
 Normally, Jira only lets you link issues to Epics in a 1:n relationship. With virtual linking,
 anything can be linked, even Epics to Epics. You can also use this feature if you don't want to actually
 change the epic relationships of certain issues or if you want to use a custom issue type instead of Epics.
+
+### Setting a custom link type
+
+If you have configured a custom epic issue type (see above), you can set a Jira issue link
+type to link issues to each other, instead of using the built-in Epic Link Type, which is not available
+in this case. 
+Go to the settings panel, select a custom issue type and then select a Jira issue link. Note, that this is optional.
+Once you have configured the issue link, issues that were previously linked to epics with this link type will display
+in the story. Additionally, the app will modify these links when you move an issue across the map.
+
+<img src={LinkSelect} style={{width:245}} alt="Link Selector" />

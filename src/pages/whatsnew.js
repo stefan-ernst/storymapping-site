@@ -3,10 +3,25 @@ import styles from './whatsnew.module.css';
 import Status from "../../docs/components/Status";
 import CustomCard from '../../static/img/CustomFields.png';
 
-export default function WhatsNew() {
+export default function WhatsNew({background='white'}) {
 
     return (
-        <div style={{padding:10,backgroundColor:'white'}}>
+        <div style={{padding:10,backgroundColor:background}}>
+            <small>July 2021</small>
+            <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
+                <h3 style={{marginBottom:1}}>Pro Version improvements 07/21 (DC / Server V1.6)</h3>
+                <span><Status text="Pro" /> </span></div>
+            <p>
+                Even more changes are coming to Story Mapping app this month!
+                <ul>
+                    <li>We overhauled the story map settings to make them easier to use and less confusing</li>
+                    <li>You can now view closed sprints and released version on the story map</li>
+                    <li>Select any agile board for your story map's backlog</li>
+                    <li>Custom fields on cards can now be sorted</li>
+                    <li>The filter manager now displays the underlying JQL query</li>
+                    <li>Fixed various bugs</li>
+                </ul>
+            </p>
             <small>July 2021</small>
             <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
                 <h3 style={{marginBottom:1}}>Free Version Improvements 07/21</h3>
