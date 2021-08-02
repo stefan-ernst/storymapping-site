@@ -7,6 +7,28 @@ export default function WhatsNew({background='white'}) {
 
     return (
         <div style={{padding:10,backgroundColor:background}}>
+            <small>August 2021</small>
+            <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
+                <h3 style={{marginBottom:1}}>Pro Version Improvements 08/21</h3>
+                <span><Status text="Pro"  /> </span></div>
+            <p>
+                <ul>
+                    <li>You can now lock the header to make it scroll with the story map, this way you will always see the epic that is
+                        assigned to each column</li>
+                    <li>The backlog will now also show available epics in your board so you can simply drag and drop them to story map</li>
+                </ul>
+            </p>
+            <small>August 2021</small>
+            <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
+                <h3 style={{marginBottom:1}}>Free Version Improvements 08/21</h3>
+                <span><Status text="Free" isFree /> </span></div>
+            <p>
+                <ul>
+                    <li>You can now lock the header to make it scroll with the story map, this way you will always see the epic that is
+                    assigned to each column</li>
+                </ul>
+                If you like Story Mapping App,<br /> please rate us on the <a href="https://marketplace.atlassian.com/1224357" target="_blank">Atlassian Marketplace!</a>
+            </p>
             <small>July 2021</small>
             <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
                 <h3 style={{marginBottom:1}}>Pro Version improvements 07/21 (DC / Server V1.6)</h3>
