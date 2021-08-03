@@ -47,7 +47,7 @@ export default function Freevspro({background='white'}) {
 
                 <CheckItem />
 
-                <div>Story point estimation and story point totals for swimlanes</div>
+                <div>Story point estimation and story point sum-up for swimlanes</div>
 
             </div>
 
@@ -55,7 +55,7 @@ export default function Freevspro({background='white'}) {
 
                 <CheckItem />
 
-                <div>Custom timeframes instead of sprints & releases</div>
+                <div>Create custom swimlanes</div>
 
             </div>
 
@@ -101,7 +101,7 @@ export default function Freevspro({background='white'}) {
 
                 <CheckItem />
 
-                <div>Available for Jira Data Center</div>
+                <div>Jira Data Center certified</div>
 
             </div>
 
