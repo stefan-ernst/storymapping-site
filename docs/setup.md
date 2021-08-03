@@ -22,7 +22,8 @@ filter, you can use issues from multiple projects in your story map.
 
 <img src={SelectBoard2} style={{width:'20rem',marginBottom:'2rem'}} />
 
-Keep in mind however that release information works on a per-project
+:::tip
+Keep in mind, that release information works on a per-project
 basis, so release mapping will not work when more than one project is used
 in the filter.
 

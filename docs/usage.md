@@ -20,9 +20,6 @@ You can assign issues to the epic the same way, either search for them or create
 
 ![The newly created task](/img/smfree/smetutorial3.png)
 
-:::info
-You can not assign epics to epics, this is not allowed by Jira
-:::
 
 ### Working with multiple epics
 
