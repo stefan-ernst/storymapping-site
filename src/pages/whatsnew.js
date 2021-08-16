@@ -14,7 +14,7 @@ export default function WhatsNew({background='white'}) {
             <p>
                 <ul>
                     <li>You can now lock the header to make it scroll with the story map, this way you will always see the epic that is
-                        assigned to each column</li>
+                        assigned to each column (Cloud only)</li>
                     <li>The backlog will now also show available epics in your board so you can simply drag and drop them to story map</li>
                 </ul>
             </p>
