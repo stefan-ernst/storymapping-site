@@ -18,11 +18,11 @@ export default function WhatsNew({background='white'}) {
                     <li>You can now make Story Mapping App available only in select projects. Head to the
                     new administration area to either enable the app for all projects or add only select projects
                         to the list of eligible projects.
-                    <br /><br />
-                    <img src={Admin} style={{width: 500}} />
                     </li>
 
                 </ul>
+                <img src={Admin} style={{width: 500}} />
+
             </p>
             <small>August 2021</small>
             <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
