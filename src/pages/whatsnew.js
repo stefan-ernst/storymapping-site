@@ -2,11 +2,28 @@ import React from 'react';
 import styles from './whatsnew.module.css';
 import Status from "../../docs/components/Status";
 import CustomCard from '../../static/img/CustomFields.png';
+import Admin from '../../static/img/admin.png';
+
 
 export default function WhatsNew({background='white'}) {
 
     return (
         <div style={{padding:10,backgroundColor:background}}>
+            <small>September 2021</small>
+            <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
+                <h3 style={{marginBottom:1}}>Pro Version Improvements 09/21</h3>
+                <span><Status text="Pro"  /> </span></div>
+            <p>
+                <ul>
+                    <li>You can now make Story Mapping App available only in select projects. Head to the
+                    new administration area to either enable the app for all projects or add only select projects
+                        to the list of eligible projects.
+                    <br /><br />
+                    <img src={Admin} style={{width: 500}} />
+                    </li>
+
+                </ul>
+            </p>
             <small>August 2021</small>
             <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
                 <h3 style={{marginBottom:1}}>Pro Version Improvements 08/21</h3>
