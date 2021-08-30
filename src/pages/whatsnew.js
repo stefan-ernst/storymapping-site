@@ -11,7 +11,7 @@ export default function WhatsNew({background='white'}) {
         <div style={{padding:10,backgroundColor:background}}>
             <small>September 2021</small>
             <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
-                <h3 style={{marginBottom:1}}>Pro Version Improvements 09/21</h3>
+                <h3 style={{marginBottom:1}}>Pro Version Improvements 09/21 (DC / Server V1.7)</h3>
                 <span><Status text="Pro"  /> </span></div>
             <p>
                 <ul>
