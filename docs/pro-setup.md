@@ -6,7 +6,7 @@ title: First steps
 import Setup1 from '/static/img/setup1.png'
 
 After installation, Story Mapping app will be available in 
-all Software projects (Business projects are not supported at this time).
+all projects.
 
 See the [Administrators Guide](./pro-admin-guide) on how to only enable the app on certain projects.
 
