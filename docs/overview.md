@@ -34,4 +34,4 @@ the story map will not be affected.
 
 ### Adding a new story map 
 
-Please read our guide [here](/pro-setup).
+Please read our guide [here](./pro-setup).
