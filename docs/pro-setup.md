@@ -3,28 +3,39 @@ id: pro-setup
 title: First steps
 ---
 
-import SelectBoard from '/static/img/smfree/selectboard.png'
-import SelectBoard2 from '/static/img/smfree/selectboard2.png'
-
+import Setup1 from '/static/img/setup1.png'
 
 After installation, Story Mapping app will be available in 
 all Software projects (Business projects are not supported at this time).
 
-When you first open the story map, you can start adding
-Epics and assigning tickets right away. 
-But it's best to set up the backlog from the start 
-by selecting a board in top right-hand corner.
+See the [Administrators Guide](./pro-admin-guide) on how to only enable the app on certain projects.
 
-<img src={SelectBoard} style={{width:'20rem'}} />
+The app will first redirect you to the [overview screen](./overview) of a project, where you can
+add and manage story maps. 
+The app attaches user story maps to projects. However, this does not mean that they 
+are limited in this way. You can add issues from any project and configure boards with 
+multiple projects to use as backlog for the story map. 
 
-By selecting a board that includes more than one project in the board
-filter, you can use issues from multiple projects in your story map.
+### Adding a new story map
 
-<img src={SelectBoard2} style={{width:'20rem',marginBottom:'2rem'}} />
+You can create new story map by clicking the button in the top right corner.
 
-Keep in mind however that release information works on a per-project
-basis, so release mapping will not work when more than one project is used
-in the filter.
+The welcome assistant will open - where you can specify a name for the story map. You can
+then define which issue you want to use for the activity row of the story map. See our best practice guide
+that describes the structure of a user story map.
+If you leave this field empty, the map will either (a) pick the standard epic issue type or (b) ask again
+when opening the map if the standard epic type is not available in your project.
 
-Once the board is set up, you are good to go. 
-Head on to the next section.
+<img src={Setup1} style={{width:'450px'}} />
+
+Lastly, you can select an agile board to use as a backlog. This step is **optional**.
+You can either select a board later or add the issues manually to the story map if you do not
+want to use Jira Software features or only have a Jira Core license.
+
+### Importing Issues
+
+The welcome assistant lets you import issues with the selected issue type automatically, 
+either from the current project or - if you have selected one - from the agile board.
+
+This way for example, existing epics and all issues within those epics will be imported into
+the story map. Please beware that it is discouraged to manage the same issues from multiple story maps.
