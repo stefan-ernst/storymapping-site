@@ -91,7 +91,7 @@ function Home() {
     return (
         <Layout
             title={`${siteConfig.title}`}
-            description="User Story Mapping for Jira, plan sprints and release and organize your work">
+            description="User Story Mapping for Jira lets you plan sprints and release and organize your work. Work directly in projects with your existing Jira issues. Collaborate on a common user story map with your team.">
             <header className={clsx('hero hero--primary', styles.heroBanner)} style={{ transform: 'skewY(-2deg)',marginTop:-50,padding:'5rem 0 4rem 0'}}>
                 <div className="container" style={{transform: 'skewY(+2deg)',paddingTop:'2rem'}}>
                     <h1 className="hero__title">{siteConfig.title}</h1>
@@ -132,10 +132,10 @@ function Home() {
 
                 <div className='heroBox'>
                     <div className='heroBox-text'>
-                        <h2>Manage & Prioritize</h2>
+                        <h3>Manage & Prioritize</h3>
                         Story Mapping for Jira was designed from the ground up to be easily installed and used to get your team up and running quickly
                     </div>
-                    <img src="/img/Basic.png" style={{width:493,height:'auto',maxHeight:378}} />
+                    <img src="/img/Basic.png" alt="User Story Map Overview" style={{width:493,height:'auto',maxHeight:378}} />
 
                 </div>
 
@@ -144,14 +144,14 @@ function Home() {
                 <div className="heroBox">
 
                     <div className='heroBox-text'>
-                        <h2>Edit on the fly</h2>
+                        <h3>Edit on the fly</h3>
                         <ul>
                             <li>Easily assign issues to epics with drag & drop
                             </li>
                             <li>Manage and plan your next sprint or release right from the story map.</li>
                         </ul>
                     </div>
-                    <img src="/img/Basic2.png" style={{width:493,height:'auto',maxHeight:378}} />
+                    <img src="/img/Basic2.png" alt="Sprint Planning" style={{width:493,height:'auto',maxHeight:378}} />
 
 
 
@@ -162,14 +162,14 @@ function Home() {
                 <div className='heroBox'>
 
                     <div className='heroBox-text'>
-                        <h2>Fully integrated</h2>
+                        <h3>Fully integrated</h3>
                         <ul>
                             <li>Create Jira issues directly from the story map</li>
                             <li>Add releases, create and start sprints - all without leaving the app</li>
                         </ul>
 
                     </div>
-                    <img src="/img/AddRelease.png" style={{width:290,height:'auto',maxHeight:306}} />
+                    <img src="/img/AddRelease.png" alt="Adding a release" style={{width:290,height:'auto',maxHeight:306}} />
 
                 </div>
 
@@ -194,20 +194,20 @@ function Home() {
 
                 <div style={{  backgroundColor: '#fff', padding: "5rem 0 5rem 0", transform: 'skewY(+2deg)', marginBottom: -100}}>
                     <div style={{transform: 'skewY(-2deg)'}}>
-                    <div style={{margin:'auto',maxWidth:300,textAlign:'center'}}><h2>Get even more with Pro</h2>
+                    <div style={{margin:'auto',maxWidth:300,textAlign:'center'}}><h2>Pro Features</h2>
                     <br /></div>
 
                     <div className='heroBox'>
 
                         <div className='heroBox-text'>
-                            <h2>Custom Issue Types</h2>
+                            <h3>Custom Issue Types</h3>
                             <ul>
                                 <li>Use any issue type for your story map</li>
-                                <li>Link issues with custom issue link types</li>
+                                <li>Connect issues with Jira issue links</li>
                                 <li>Build story maps in Jira Business projects</li>
                             </ul>
                         </div>
-                        <img src="/img/CustomIssues.png" style={{maxWidth:493,height:'auto',maxHeight:454}} />
+                        <img src="/img/CustomIssues.png" alt="Custom Issue Types on a story map" style={{maxWidth:493,height:'auto',maxHeight:454}} />
 
                     </div>
                         <br />
@@ -215,14 +215,14 @@ function Home() {
                     <div className='heroBox'>
 
                         <div className='heroBox-text'>
-                            <h2>Custom Fields</h2>
+                            <h3>Custom Fields</h3>
                             <ul>
                                 <li>Customize your issue cards the way you want it</li>
                                 <li>Display useful additional information in the story map</li>
                             </ul>
 
                         </div>
-                        <img src="/img/CustomFields2.png" style={{width:493,height:'auto',maxHeight:378}} />
+                        <img src="/img/CustomFields2.png" alt="Custom Fields on cards" style={{width:493,height:'auto',maxHeight:378}} />
 
                     </div>
 
@@ -231,15 +231,15 @@ function Home() {
                     <div className='heroBox'>
 
                         <div className='heroBox-text'>
-                            <h2>Custom Timeframes</h2>
+                            <h3>Custom Swimlanes</h3>
                             <ul>
                                 <li>Sometimes releases and sprints are just not enough for planning</li>
-                                <li>Add custom timeframes to plan more long term</li>
+                                <li>Add custom swimlanes to plan more long term</li>
                                 <li>Switch to planning mode to view issues on a time axis</li>
                             </ul>
 
                         </div>
-                        <img src="/img/Timeframes.png" style={{width:490,height:'auto',maxHeight:302}} />
+                        <img src="/img/Timeframes.png" alt="Custom swim lanes" style={{width:490,height:'auto',maxHeight:302}} />
 
                     </div>
 
