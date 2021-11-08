@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /whatsnew /freevspro
+
+User-agent: *
+Allow: /
+
+Sitemap: http://www.storymapping.app/sitemap.xml

@@ -53,17 +53,18 @@ module.exports = {
                             to: 'https://journeymapping.app',
                         },
                         {
-                            label: 'Read Confirmations for Confluence',
-                            to: 'https://realigned.io/readconfirmations',
+                            label: 'Denkplan Portfolio Map for Jira',
+                            to: 'https://portfoliomapping.app',
+                        },
+                        {
+                            label: 'Personas for Jira',
+                            to: 'https://betterpersonas.app',
                         },
                         {
                             label: 'Personal Dashboards for Confluence',
                             to: 'https://realigned.io/personaldashboards',
                         },
-                        {
-                            label: 'Enhanced Sharing for Confluence',
-                            to: 'https://realigned.io/enhancedsharing',
-                        },
+
                     ],
                 },
                 {
