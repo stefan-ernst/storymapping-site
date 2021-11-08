@@ -91,7 +91,7 @@ function Home() {
     return (
         <Layout
             title={`${siteConfig.title}`}
-            description="Description will go into a meta tag in <head />">
+            description="User Story Mapping for Jira, plan sprints and release and organize your work">
             <header className={clsx('hero hero--primary', styles.heroBanner)} style={{ transform: 'skewY(-2deg)',marginTop:-50,padding:'5rem 0 4rem 0'}}>
                 <div className="container" style={{transform: 'skewY(+2deg)',paddingTop:'2rem'}}>
                     <h1 className="hero__title">{siteConfig.title}</h1>
