@@ -2,6 +2,23 @@
   "news": [
     {
       "month": "November 2021",
+      "title": "Minor Improvements 11/21",
+      "isPro": true,
+      "isFree": true,
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "The top bar has been re-arranged to give you more vertical space for the story map",
+            "Issues now open in a modal dialog and can be modified on the fly.",
+            "Fixed a bug that prevented maps from loading when an invalid quick filter was active"
+          ]
+        }
+      ]
+    },
+
+    {
+      "month": "November 2021",
       "title": "Pro Version Improvements 11/21",
       "isPro": true,
       "isFree": false,
