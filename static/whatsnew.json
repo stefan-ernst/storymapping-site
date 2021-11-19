@@ -11,7 +11,7 @@
           "items": [
             "Our most requested feature is here: You can now manage multiple user story maps.\nWhen you open the app forth the first time, you will be asked to select the map you want to work on. You can create\nmany more user story maps with different boards and settings within the same project.\nYou can also select a story map as a favorite and it will load automatically the next time you open the app.\n",
             "Introducing epic statistics: You can now see the progress of your issues within an epic. Toggle between\ntotals per status, percentage of issues per status completed or percentage of story points done.",
-            "Sub-task support: You can now display the number of subtasks on the issue card, alongside a link that reveals all subtasks and their status",
+            "Sub-task support: You can now display the number of subtasks on the issue card, alongside a link that reveals all subtasks and their status"
             ]
         },
         {
