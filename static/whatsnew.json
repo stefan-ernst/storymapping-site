@@ -1,4 +1,21 @@
 {
+  "freevspro": {
+    "title1": "Features",
+    "features1": [
+      "Multiple story maps per project",
+      "Use any Jira Issue Type",
+      "Define top level goals",
+      "Custom field on cards",
+      "Configurable swimlanes",
+      "Epic and swimlane statistics"
+    ],
+    "title2": "Other benefits",
+    "features2": [
+      "Priority support",
+      "High availability setup",
+      "Data Center certified"
+    ]
+  },
   "news": [
     {
       "month": "November 2021",
@@ -26,8 +43,8 @@
         {
           "type": "list",
           "items": [
-            "Our most requested feature is here: You can now manage multiple user story maps.",
-            "Introducing epic statistics: You can now see the progress of your issues within an epic. Toggle between\ntotals per status, percentage of issues per status completed or percentage of story points done.",
+            "Our most requested feature is here: You can now manage multiple user story maps in one project.",
+            "Introducing epic statistics: See the progress of your issues within an epic. Toggle between\ntotals per status, percentage of issues per status completed or percentage of story points done.",
             "Sub-task support: You can now display the number of subtasks on the issue card, alongside a link that reveals all subtasks and their status"
             ]
         },
