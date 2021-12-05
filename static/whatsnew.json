@@ -18,6 +18,21 @@
   },
   "news": [
     {
+      "month": "December 2021",
+      "title": "News 12/21",
+      "content": [
+        {
+          "type": "content",
+          "content": "We have made the Pro Version available free for up to 10 users. Check it out on the marketplace!"
+        },
+        {
+          "type": "link",
+          "title": "Story Mapping for Jira - Pro",
+          "href": "https://marketplace.atlassian.com/1224417"
+        }
+      ]
+    },
+    {
       "month": "November 2021",
       "title": "Minor Improvements 11/21",
       "isPro": true,
