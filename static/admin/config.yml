@@ -9,6 +9,7 @@ collections:
     folder: docs
     identifier_field: id
     extension: mdx
+    format: "frontmatter"
     widget: "list"
     create: true
     fields:
