@@ -5,9 +5,12 @@ media_folder: static/img
 public_folder: /img
 collections:
   - name: docs
-      label: "docs"
-      folder: docs
-      identifier_field: title
-      extension: mdx
-      widget: "list"
-      create: true
+    label: "docs"
+    folder: docs
+    identifier_field: id
+    extension: mdx
+    widget: "list"
+    create: true
+    fields:
+      - {label: "Title",name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
