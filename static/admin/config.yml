@@ -1,3 +1,13 @@
 backend:
   name: git-gateway
   branch: master
+media_folder: static/img
+public_folder: /img
+collections:
+  - name: docs
+      label: "docs"
+      folder: docs
+      identifier_field: title
+      extension: mdx
+      widget: "list"
+      create: true
