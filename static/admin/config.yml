@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   branch: master
 media_folder: static/img
 public_folder: /img
@@ -10,6 +10,7 @@ collections:
     identifier_field: id
     extension: mdx
     format: "frontmatter"
+    slug: "{{slug}}"
     widget: "list"
     create: true
     fields:
