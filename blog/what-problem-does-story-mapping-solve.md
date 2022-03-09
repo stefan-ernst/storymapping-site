@@ -5,7 +5,7 @@ author_title: Co-creator of Story Mapping App
 tags: [story-mapping,backlog-grooming]
 description: "In this installment, we explore one of the most common difficulties of agile teams: Backlog overflow and the struggle to the maintain a mostly flat backlog"
 hide_table_of_contents: false
-date: "2021-06-04T14:00:01.322Z"
+date: "2021-06-04T14:00"
 ---
 
 import StoryMapping0 from '../static/img/blog/StickyNotes.jpg'

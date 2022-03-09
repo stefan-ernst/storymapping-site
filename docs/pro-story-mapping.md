@@ -65,13 +65,7 @@ changes will be reflected in the story point totals displayed for each sprint / 
 ### Goals / Activities
 
 Story Mapping app supports a level above the epic / step row, that represents user activities or high level goals
-in a story map. You can activate this feature by going to Settings -> Display and enabling the goal swimlane.
-
-The goal swimlane does not support adding Jira issues but simply functions as a visual aid 
-where you can add text to represent high level activities. After adding a goal, you can 
-assign a color to it, as well as expand the width of the goal, in order to cover more of the underlying
-steps.
-
+in a story map. Read more on this in our dedicated guide on [Top Level Elements](./top-level-elements).
 ### Filters / Quick Filters
 
 If you have an agile board associated with the story map, you can find all 

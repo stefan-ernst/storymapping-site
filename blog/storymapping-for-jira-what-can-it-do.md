@@ -5,7 +5,7 @@ author_title: Co-creator of Story Mapping App
 tags: [story-mapping,free-edition]
 description: Instead of creating story maps the old-fashioned way - offline on a physical board - learn which capabilities Story Mapping for Jira provides to bring your user story maps closer to your actual work
 hide_table_of_contents: false
-date: "2021-05-21T14:35:07.322Z"
+date: "2021-05-21T14:35"
 ---
 
 import StoryMapping0 from '../static/img/blog/storymapping0.png'

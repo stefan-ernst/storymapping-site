@@ -9,6 +9,24 @@ export default function WhatsNew({background='white'}) {
 
     return (
         <div style={{padding:10,backgroundColor:background}}>
+            <small>March 2022</small>
+            <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
+                <h3 style={{marginBottom:1}}>Pro Version Improvements 01/22</h3>
+                <span><Status text="Pro"  /> </span></div>
+            <p>
+                <ul>
+                    <li>Story Mapping App now supports top-level elements above the backbone row.
+                        You can use any issue type to group columns, as well as select a color to style the columns for
+                        more clarity on large story maps. Read more <a href="https://www.storymapping.app/docs/top-level-elements">here</a>.
+                    </li>
+                    <li>Create Sprint & Release buttons have been unified into the new Create dropdown at the top of the story map
+                    </li>
+                    <li>Server & Data Center now support the scrolling header that was already available in the Cloud version
+                    </li>
+
+                </ul>
+
+            </p>
             <small>November 2021</small>
             <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
                 <h3 style={{marginBottom:1}}>Pro Version Improvements 11/21</h3>

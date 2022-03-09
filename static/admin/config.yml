@@ -9,6 +9,7 @@ collections:
     label: "docs"
     folder: docs
     identifier_field: id
+
     extension: mdx
     format: "frontmatter"
     slug: "{{slug}}"
