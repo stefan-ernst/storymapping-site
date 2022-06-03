@@ -5,33 +5,6 @@ title: Settings
 
 The following section explains the many possible settings for your user story map
 
-### Map Configuration
-
-#### Epic Type
-
-It is possible to change the epic issue type on the fly. Please note that this does
-not alter the currently added issues. It only affects which issue you can add to the steps row.
-
-<img src="/img/EpicSelect.png" style={{width:"250px"}} alt="Selecting Issue Type" />
-
-If you had previously selected the Jira Epic issue type here and then make a change for a non-standard
-epic issue type, the linking of the map will change - as will the filter for the story map. 
-This can be confusing for users, so please be aware of this. Certain issues that were
-not linked manually to the story map before, for example issues belonging to an epic that
-were simply automatically imported into the story map, will disappear.
-
-The same can happen if you have the Jira standard Epic selected and disable the "Epic Link" toggle.
-
-#### Jira Issue Linking
-
-When using a custom issue type, Story Mapping app can automatically maintain issue links for you.
-You can select the link type from the drop-down that appears when Epic linking is disabled.
-
-<img src="/img/LinkSelect.png" style={{width:"250px"}} alt="Selecting Issue Type" />
-
-While updating the links between issues, Story Mapping app will remove all other uses of this 
-link type from the issue, so please select a link type specifically for this purpose.
-
 ### Backlog Configuration
 
 You can select a new Jira agile board here at any time. The agile board will be used to 

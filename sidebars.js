@@ -2,7 +2,7 @@ module.exports = {
   someSidebar: [
     'intro',
     {"Story Mapping Free": ['setup', 'usage', 'usage2']},
-    {"Story Mapping Pro": ['pro-setup', 'overview', 'pro-story-mapping', 'top-level-elements', 'pro-settings', 'pro-admin-guide']},
+    {"Advanced Story Maps for Jira": ['pro-setup', 'overview', 'map-types', 'pro-story-mapping', 'top-level-elements', 'pro-settings', 'pro-admin-guide']},
     {"Best Practices": ['storyvsjourneymap']},
     'release-notes',
 

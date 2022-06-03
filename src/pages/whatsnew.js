@@ -9,6 +9,29 @@ export default function WhatsNew({background='white'}) {
 
     return (
         <div style={{padding:10,backgroundColor:background}}>
+            <small>May 2022</small>
+            <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
+                <h3 style={{marginBottom:1}}>Major updates and a new name</h3>
+                <span><Status text="Pro"  /> </span></div>
+            <p>
+                Story Mapping for Jira - Pro is now <b>Advanced Story Maps for Jira</b>!
+                <br /><br />
+                We have added a significant new feature to this release: Dynamic maps.
+                You can now load any agile board and manage epics, stories, tasks, and their issue links on the fly, and all changes will now reflect 100% into the agile board.
+                Additionally, managing the app configuration has gotten much easier - use the new hierarchy button in the top right-hand corner to modify the map's issue hierarchy and link types.
+                The changes will appear instantly in the map view.
+                <br /><br />
+                <ul>
+                    <li>Link types can now be configured in both directions, so you do not only have to work with the "outward" link
+                    </li>
+                    <li>Use custom field values as swim lanes, for example for cross-project release planning
+                    </li>
+                    <li>Ordering top-level elements and epics will not reflect back on their board rank
+                    </li>
+
+                </ul>
+
+            </p>
             <small>March 2022</small>
             <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
                 <h3 style={{marginBottom:1}}>Pro Version Improvements 01/22</h3>
@@ -55,9 +78,6 @@ export default function WhatsNew({background='white'}) {
                         Better export: We have adjusted the card layout to improve export image quality.
                     </li>
                 </ul>
-
-
-
             </p>
             <small>September 2021</small>
             <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
@@ -111,44 +131,6 @@ export default function WhatsNew({background='white'}) {
                     <li>Fixed various bugs</li>
                 </ul>
             </p>
-            <small>July 2021</small>
-            <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
-                <h3 style={{marginBottom:1}}>Free Version Improvements 07/21</h3>
-                <span><Status text="Free" isFree /> </span></div>
-            <p>
-                <ul>
-                    <li>Introduced the swimlane dropdown from the Pro-Version, reducing visual clutter</li>
-                    <li>Closed sprints and released versions can now be displayed in the story map via the new settings page</li>
-                    <li>Improved error message display for Jira errors</li>
-                </ul>
-                If you like Story Mapping App,<br /> please rate us on the <a href="https://marketplace.atlassian.com/1224357" target="_blank">Atlassian Marketplace!</a>
-            </p>
-            <small>July 2021</small>
-            <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
-                <h3 style={{marginBottom:1}}>Pro Version improvements 07/21</h3>
-                <span><Status text="Pro" /> </span></div>
-            <p>
-                <ul>
-                    <li>Like the free version, the Pro version now fully integrates Epic Links</li>
-                    <li>Additionally, the Pro version can make use of Jira issue links, syncing existing relationships into the story map</li>
-                    <li>Totals for story point estimates are displayed for each swimlane</li>
-                </ul>
-            </p>
-            <small>June 2021</small>
-            <div style={{display:'flex',gap:8, alignItems:'center',marginBottom:10}}>
-                <h3 style={{marginBottom:1}}>Free Version Improvements 06/21</h3>
-                <span><Status text="Free" isFree /> </span></div>
-            <p>
-                <ul>
-                    <li>The app now takes full advantage of epics, syncing changes from the story map with Jira epics and vice versa</li>
-                    <li>Fixed a bug with whitespaces in search terms</li>
-                    <li>Small visual improvements</li>
-                </ul>
-            </p>
-
-
-
-
         </div>
     )
 }

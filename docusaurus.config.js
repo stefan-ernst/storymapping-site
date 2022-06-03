@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'Story Mapping for Jira',
+    title: 'Advanced Story Maps for Jira',
     tagline: 'Focus on user value & prioritize the right work',
     url: 'https://storymapping.app',
     baseUrl: '/',
@@ -15,9 +15,9 @@ module.exports = {
         },
         navbar: {
             style: 'dark',
-            title: 'Story Mapping for Jira',
+            title: 'Advanced Story Maps for Jira',
             logo: {
-                alt: 'Story Mapping for Jira Logo',
+                alt: 'Advanced Story Maps for Jira Logo',
                 src: 'img/StoryMapIcon.svg',
             },
             items: [

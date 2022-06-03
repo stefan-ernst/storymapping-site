@@ -3,9 +3,10 @@
     "title1": "Features",
     "features1": [
       "Multiple story maps per project",
-      "Use any Jira Issue Type",
-      "Define top level goals",
-      "Custom field on cards",
+      "Use any Jira Issue & Link Type",
+      "Add top level goals & activities",
+      "Map issues to custom field values",
+      "Customize the card layout",
       "Configurable swimlanes",
       "Epic and swimlane statistics"
     ],
@@ -17,6 +18,21 @@
     ]
   },
   "news": [
+    {
+      "month": "May 2022",
+      "title": "Major updates and a new name",
+      "content": [
+        {
+          "type": "text",
+          "content": "Story Mapping for Jira - Pro is now Advanced Story Maps for Jira! \n\nWe have added a significant new feature to this release: Dynamic maps.\nYou can now load any agile board and manage epics, stories, tasks, and their issue links on the fly, and all changes will now reflect 100% into the agile board. Additionally, managing the app configuration has gotten much easier - use the new hierarchy button in the top right-hand corner to modify the map's issue hierarchy and link types. The changes will appear instantly in the map view."
+        },
+        {
+          "type": "link",
+          "title": "Full release notes",
+          "href": "https://www.storymapping.app/docs/release-notes?utm_source=InAppWhatsNew"
+        }
+      ]
+    },
     {
       "month": "December 2021",
       "title": "Big news for starter tiers",

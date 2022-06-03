@@ -5,12 +5,12 @@ title: Common Issues & Questions
 
 ### The Release button is not visible
 
-You might be using a Next-Gen project where the Release feature is not enabled.
+You might be using a project where the Release feature is not enabled.
 Please go to the Project Administration -> Features and enable Releases.
 
 ### The Sprint button is not visible
 
-In Next-Gen projects, it is possible that Sprint feature is disabled. See above for the same problem
+In team managed projects, it is possible that the Sprint feature is disabled. See above for the same problem
 with the Release feature.
 If you are using a Classic Project (or using Server or Data Center), the selected agile board might not support
 Sprints or you do not have Manage Sprints permission.
@@ -41,23 +41,24 @@ issues from one project to fixVersions of the same project. There is
 unfortunately nothing we can do about this.
 
 If you want to plan cross-project releases, we recommend you use
-the custom timeframe feature, available in the pro version.
+the custom swim lane or custom field mapping feature, available in Advanced Story Maps for Jira.
 
-### Could not update estimate (Pro Version)
+### Could not update estimate
 
 There are unfortunately several reasons for this:
 
 1. The configured board is a scrum board but the context for the story points field does not include the current issue type.
    See this [community thread](https://community.atlassian.com/t5/Jira-questions/Story-points-not-visible-for-Issues/qaq-p/1315572) for further info.
-2. The configured board is a Kanban board or no board is configured and you have enable
-the estimation feature via Story Mapping app - you need to make sure the story point field is
+2. The configured board is a Kanban board or no board is configured and you have enabled
+the estimation feature via the settings - you need to make sure the story point field is
    available on the edit screen of the issue type.
 3. You entered an invalid value for the field. Story Mapping app will try to cast any value
-to a number but this can fail.
+to a number and this operation can fail.
 
-### I can't find Story Mapping App in the project sidebar (Free Edition)
+### I can't find the app in the project sidebar (Free Edition)
 
-Currently only Software Projects are supported in the free edition (the Pro edition supports all project types). You won't find the Sidebar item in Business or Jira Service Management projects.
+Currently only Software Projects are supported in the free edition (Advanced Story Maps for Jira supports all project types).
+You won't find the Sidebar item in Business or Jira Service Management projects.
 
 Additionally, you need "Edit Issues" permission in the project in order to use the story mapping features.
 
@@ -69,5 +70,5 @@ If you do, Story Mapping app will ask you for the epic type once. In the free ve
 feature to change this later. But if you absolutely need to, you can look at the Projects Entity Properties (you can install the [Entity Property Tool](https://marketplace.atlassian.com/apps/1214509/entity-property-tool-for-jira?hosting=cloud&tab=overview) to do this) - then
 change the "tech.realigned.project.stmEpicId" property to the new value.
 
-Note that a feature to use arbitrary issue types as epics is included in the Pro version.
-The free edition only works with the default epic issue type of Jira.
+Note that a feature to use arbitrary issue types as epics is part of Advanced Story Maps for Jira.
+The free edition only works with the default epic issue type.
