@@ -1,6 +1,6 @@
 ---
 id: parent-link-instructions
-title: Using Advanced Story Maps with the built-in parent link
+title: Using the built-in parent link
 ---
 
 ### Basics
