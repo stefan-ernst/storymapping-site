@@ -10,11 +10,8 @@ Please find the Data Privacy Statement for Realigned Technologies Website [here]
 Story Mapping App collects and processes three types of data:
 
 - User generated content (Jira content like issues, releases, sprints, settings, etc)
-- Error reports
+- Error reports and usage information for statistical purposes
 - Install information (Cloud only)
-
-Realigned Technologies does NOT use any type of product analytics software (e.g. Google Analytics)
-and does NOT collect any personal user information.
 
 ### Data residency information
 
@@ -24,17 +21,35 @@ All user generated content (see above) is stored within your
 Jira instance, both on Cloud, Server and Data Center.
 None of this data is stored by us.
 
-The Cloud version of Story Mapping App is hosted in Helsinki, Finland
-and all data is processed within the European Union. 
-
 #### Install information (Cloud only)
 
 To enable installation and licensing via the Atlassian Marketplace
 we collect information about the instance and license upon
 installation of the app in your Cloud instance.
 
+This data includes:
+- Host name
+- Host ID (Client ID)
+- JWT secrets
+
 This information is stored in our databases currently located
 in Helsinki, Finland.
+
+#### Personal Data processed by our analytics products
+
+Due to the nature of analytics software, the following artefacts are collected by them that are considered
+personal data under the GDPR:
+
+- IP address
+- Atlassian Account ID
+
+This data is stored and processed by both Sentry and PostHog.
+
+We use this data to measure product usage on a per instance basis. We do not profile individual users
+for this purpose.
+
+If you object to this personal data being collected, you can disable analytics products in the admin
+section of our apps.
 
 #### Error Reports
 
